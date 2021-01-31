@@ -1,0 +1,2357 @@
+2014-06-17 12:27:34 Error: [MissingViewException] View file "C:\wamp\www\its\app\View\Users\add.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\wamp\\www\\its\\app\\View\\Users\\add.ctp',
+)
+Request URL: /its/users/add
+Stack Trace:
+#0 C:\wamp\www\its\lib\Cake\View\View.php(468): View->_getViewFileName(NULL)
+#1 C:\wamp\www\its\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#2 C:\wamp\www\its\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#3 C:\wamp\www\its\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\wamp\www\its\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-06-17 12:34:24 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\wamp\www\its\app\Controller\UsersController.php, line 124]
+2014-06-17 12:34:24 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /its/users/add
+Stack Trace:
+#0 C:\wamp\www\its\lib\Cake\Error\ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\wamp\www\its...', 124)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\wamp\www\its...', 124, Array)
+#2 C:\wamp\www\its\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\wamp\www\its...', 124, Array)
+#3 C:\wamp\www\its\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-06-17 12:34:51 Error: Fatal Error (1): Call to a member function save() on a non-object in [C:\wamp\www\its\app\Controller\UsersController.php, line 117]
+2014-06-17 12:34:51 Error: [FatalErrorException] Call to a member function save() on a non-object
+Request URL: /its/users/add
+Stack Trace:
+#0 C:\wamp\www\its\lib\Cake\Error\ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\wamp\www\its...', 117)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\wamp\www\its...', 117, Array)
+#2 C:\wamp\www\its\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\wamp\www\its...', 117, Array)
+#3 C:\wamp\www\its\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-06-17 13:09:36 Error: [MissingViewException] View file "C:\wamp\www\its\app\View\Users\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\wamp\\www\\its\\app\\View\\Users\\index.ctp',
+)
+Request URL: /its/dashboard
+Stack Trace:
+#0 C:\wamp\www\its\lib\Cake\View\View.php(468): View->_getViewFileName(NULL)
+#1 C:\wamp\www\its\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#2 C:\wamp\www\its\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#3 C:\wamp\www\its\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\wamp\www\its\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-06-17 13:30:06 Error: [NotFoundException] Not Found
+Request URL: /its/dashboard
+Stack Trace:
+#0 [internal function]: UsersController->index()
+#1 C:\wamp\www\its\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 C:\wamp\www\its\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\its\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\wamp\www\its\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-06-17 13:31:51 Error: [NotFoundException] Not Found
+Request URL: /its/dashboard
+Stack Trace:
+#0 [internal function]: UsersController->index()
+#1 C:\wamp\www\its\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 C:\wamp\www\its\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\its\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\wamp\www\its\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-06-26 09:48:42 Error: [MissingActionException] Action SystemDetailsController::free() could not be found.
+Exception Attributes: array (
+  'controller' => 'SystemDetailsController',
+  'action' => 'free',
+)
+Request URL: /its/SystemDetails/free/2
+Stack Trace:
+#0 C:\wamp\www\its\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\its\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(SystemDetailsController), Object(CakeRequest))
+#2 C:\wamp\www\its\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-06-26 10:00:55 Error: [MissingActionException] Action SystemDetailsController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'SystemDetailsController',
+  'action' => 'js',
+)
+Request URL: /its/SystemDetails/js/themes/base/jquery.ui.all.css
+Stack Trace:
+#0 C:\wamp\www\its\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\its\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(SystemDetailsController), Object(CakeRequest))
+#2 C:\wamp\www\its\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-06-26 11:31:41 Error: Fatal Error (4): syntax error, unexpected '[', expecting ')' in [C:\wamp\www\its\app\Controller\SystemDetailsController.php, line 115]
+2014-06-26 11:31:41 Error: [FatalErrorException] syntax error, unexpected '[', expecting ')'
+Request URL: /its/SystemDetails/allocate/3
+Stack Trace:
+#0 C:\wamp\www\its\lib\Cake\Error\ErrorHandler.php(204): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\its...', 115)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\its...', 115, Array)
+#2 C:\wamp\www\its\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\its...', 115, Array)
+#3 C:\wamp\www\its\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-06-26 13:09:18 Error: Fatal Error (1): Call to undefined method SystemDetailsController::element() in [C:\wamp\www\its\app\Controller\SystemDetailsController.php, line 129]
+2014-06-26 13:09:18 Error: [FatalErrorException] Call to undefined method SystemDetailsController::element()
+Request URL: /its/SystemDetails/allocate/3
+Stack Trace:
+#0 C:\wamp\www\its\lib\Cake\Error\ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\wamp\www\its...', 129)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\wamp\www\its...', 129, Array)
+#2 C:\wamp\www\its\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\wamp\www\its...', 129, Array)
+#3 C:\wamp\www\its\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-06-26 13:15:39 Error: [MissingActionException] Action SystemDetailsController::logout() could not be found.
+Exception Attributes: array (
+  'controller' => 'SystemDetailsController',
+  'action' => 'logout',
+)
+Request URL: /its/SystemDetails/logout
+Stack Trace:
+#0 C:\wamp\www\its\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\its\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(SystemDetailsController), Object(CakeRequest))
+#2 C:\wamp\www\its\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-06-26 13:23:16 Error: [MissingViewException] View file "C:\wamp\www\its\app\View\Users\listuser.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\wamp\\www\\its\\app\\View\\Users\\listuser.ctp',
+)
+Request URL: /its/Users/listuser
+Stack Trace:
+#0 C:\wamp\www\its\lib\Cake\View\View.php(468): View->_getViewFileName(NULL)
+#1 C:\wamp\www\its\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#2 C:\wamp\www\its\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#3 C:\wamp\www\its\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\wamp\www\its\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-06-26 13:24:24 Error: [MissingViewException] View file "C:\wamp\www\its\app\View\Users\listuser.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\wamp\\www\\its\\app\\View\\Users\\listuser.ctp',
+)
+Request URL: /its/Users/listuser
+Stack Trace:
+#0 C:\wamp\www\its\lib\Cake\View\View.php(468): View->_getViewFileName(NULL)
+#1 C:\wamp\www\its\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#2 C:\wamp\www\its\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#3 C:\wamp\www\its\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\wamp\www\its\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-06-26 13:29:30 Error: [MissingViewException] View file "C:\wamp\www\its\app\View\Users\listuser.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\wamp\\www\\its\\app\\View\\Users\\listuser.ctp',
+)
+Request URL: /its/Users/listuser
+Stack Trace:
+#0 C:\wamp\www\its\lib\Cake\View\View.php(468): View->_getViewFileName(NULL)
+#1 C:\wamp\www\its\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#2 C:\wamp\www\its\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#3 C:\wamp\www\its\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\wamp\www\its\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-06-26 13:29:57 Error: [MissingViewException] View file "C:\wamp\www\its\app\View\Users\listuser.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\wamp\\www\\its\\app\\View\\Users\\listuser.ctp',
+)
+Request URL: /its/Users/listuser
+Stack Trace:
+#0 C:\wamp\www\its\lib\Cake\View\View.php(468): View->_getViewFileName(NULL)
+#1 C:\wamp\www\its\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#2 C:\wamp\www\its\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#3 C:\wamp\www\its\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\wamp\www\its\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-06-26 13:51:15 Error: Fatal Error (4): syntax error, unexpected ';', expecting T_FUNCTION in [C:\wamp\www\its\app\Controller\UsersController.php, line 150]
+2014-06-26 13:51:15 Error: [FatalErrorException] syntax error, unexpected ';', expecting T_FUNCTION
+Request URL: /its/Users/listuser
+Stack Trace:
+#0 C:\wamp\www\its\lib\Cake\Error\ErrorHandler.php(204): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\its...', 150)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\its...', 150, Array)
+#2 C:\wamp\www\its\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\its...', 150, Array)
+#3 C:\wamp\www\its\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-06-26 14:51:30 Error: [MissingViewException] View file "C:\wamp\www\its\app\View\Users\edit.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\wamp\\www\\its\\app\\View\\Users\\edit.ctp',
+)
+Request URL: /its/Users/edit/1
+Stack Trace:
+#0 C:\wamp\www\its\lib\Cake\View\View.php(468): View->_getViewFileName(NULL)
+#1 C:\wamp\www\its\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#2 C:\wamp\www\its\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#3 C:\wamp\www\its\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\wamp\www\its\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-06-27 09:16:55 Error: [MissingViewException] View file "C:\wamp\www\its\app\View\Users\edit.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\wamp\\www\\its\\app\\View\\Users\\edit.ctp',
+)
+Request URL: /its/Users/edit/3
+Stack Trace:
+#0 C:\wamp\www\its\lib\Cake\View\View.php(468): View->_getViewFileName(NULL)
+#1 C:\wamp\www\its\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#2 C:\wamp\www\its\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#3 C:\wamp\www\its\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\wamp\www\its\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-06-27 09:21:12 Error: Fatal Error (1): Call to undefined method UsersController::Paginator() in [C:\wamp\www\its\app\Controller\UsersController.php, line 38]
+2014-06-27 09:21:12 Error: [FatalErrorException] Call to undefined method UsersController::Paginator()
+Request URL: /its/Users/
+Stack Trace:
+#0 C:\wamp\www\its\lib\Cake\Error\ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\wamp\www\its...', 38)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\wamp\www\its...', 38, Array)
+#2 C:\wamp\www\its\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\wamp\www\its...', 38, Array)
+#3 C:\wamp\www\its\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-06-27 09:22:38 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'paginate' at line 1
+Request URL: /its/Users/
+Stack Trace:
+#0 C:\wamp\www\its\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\wamp\www\its\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('paginate', Array)
+#2 C:\wamp\www\its\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('paginate', Array, Array)
+#3 C:\wamp\www\its\lib\Cake\Model\Datasource\DboSource.php(609): DboSource->fetchAll('paginate', Array, Array)
+#4 C:\wamp\www\its\lib\Cake\Model\Model.php(800): DboSource->query('paginate', Array, Object(User))
+#5 C:\wamp\www\its\app\Controller\UsersController.php(38): Model->__call('paginate', Array)
+#6 C:\wamp\www\its\app\Controller\UsersController.php(38): User->paginate()
+#7 [internal function]: UsersController->index()
+#8 C:\wamp\www\its\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#9 C:\wamp\www\its\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\www\its\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#11 C:\wamp\www\its\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-06-27 09:31:17 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '! '1'    LIMIT 20' at line 1
+Request URL: /its/Users/
+Stack Trace:
+#0 C:\wamp\www\its\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\wamp\www\its\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `User`.`...', Array)
+#2 C:\wamp\www\its\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT `User`.`...', Array, Array)
+#3 C:\wamp\www\its\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `User`.`...', false)
+#4 C:\wamp\www\its\lib\Cake\Model\Model.php(2905): DboSource->read(Object(User), Array)
+#5 C:\wamp\www\its\lib\Cake\Model\Model.php(2877): Model->_readDataSource('all', Array)
+#6 C:\wamp\www\its\lib\Cake\Controller\Component\PaginatorComponent.php(196): Model->find('all', Array)
+#7 C:\wamp\www\its\app\Controller\UsersController.php(41): PaginatorComponent->paginate()
+#8 [internal function]: UsersController->index()
+#9 C:\wamp\www\its\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#10 C:\wamp\www\its\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 C:\wamp\www\its\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#12 C:\wamp\www\its\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-06-27 09:50:48 Error: [MissingViewException] View file "C:\wamp\www\its\app\View\Users\edit.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\wamp\\www\\its\\app\\View\\Users\\edit.ctp',
+)
+Request URL: /its/Users/edit/3
+Stack Trace:
+#0 C:\wamp\www\its\lib\Cake\View\View.php(468): View->_getViewFileName(NULL)
+#1 C:\wamp\www\its\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#2 C:\wamp\www\its\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#3 C:\wamp\www\its\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\wamp\www\its\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-06-27 09:54:21 Error: [MissingActionException] Action UsersController::systems() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'systems',
+)
+Request URL: /its/Users/systems/394
+Stack Trace:
+#0 C:\wamp\www\its\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\its\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\wamp\www\its\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-06-27 09:54:39 Error: [MissingViewException] View file "C:\wamp\www\its\app\View\Users\edit.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\wamp\\www\\its\\app\\View\\Users\\edit.ctp',
+)
+Request URL: /its/Users/edit/3
+Stack Trace:
+#0 C:\wamp\www\its\lib\Cake\View\View.php(468): View->_getViewFileName(NULL)
+#1 C:\wamp\www\its\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#2 C:\wamp\www\its\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#3 C:\wamp\www\its\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\wamp\www\its\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-06-27 09:59:23 Error: [MissingViewException] View file "C:\wamp\www\its\app\View\Users\edit.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\wamp\\www\\its\\app\\View\\Users\\edit.ctp',
+)
+Request URL: /its/Users/edit/3
+Stack Trace:
+#0 C:\wamp\www\its\lib\Cake\View\View.php(468): View->_getViewFileName(NULL)
+#1 C:\wamp\www\its\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#2 C:\wamp\www\its\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#3 C:\wamp\www\its\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\wamp\www\its\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-06-27 10:28:43 Error: Fatal Error (4): syntax error, unexpected ',', expecting ')' in [C:\wamp\www\its\app\View\Users\edit.ctp, line 10]
+2014-06-27 10:28:43 Error: [FatalErrorException] syntax error, unexpected ',', expecting ')'
+Request URL: /its/Users/edit/322
+Stack Trace:
+#0 C:\wamp\www\its\lib\Cake\Error\ErrorHandler.php(204): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\its...', 10)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\its...', 10, Array)
+#2 C:\wamp\www\its\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\its...', 10, Array)
+#3 C:\wamp\www\its\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-06-27 11:25:34 Error: Fatal Error (1): Call to a member function link() on a non-object in [C:\wamp\www\its\app\View\SystemDetails\index.ctp, line 3]
+2014-06-27 11:25:34 Error: [FatalErrorException] Call to a member function link() on a non-object
+Request URL: /its/SystemDetails
+Stack Trace:
+#0 C:\wamp\www\its\lib\Cake\Error\ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\wamp\www\its...', 3)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\wamp\www\its...', 3, Array)
+#2 C:\wamp\www\its\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\wamp\www\its...', 3, Array)
+#3 C:\wamp\www\its\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-06-27 11:36:17 Error: [MissingControllerException] Controller class Search.cssController could not be found.
+Exception Attributes: array (
+  'class' => 'Search.cssController',
+  'plugin' => NULL,
+)
+Request URL: /its/search.css
+Stack Trace:
+#0 C:\wamp\www\its\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-27 11:36:20 Error: [MissingControllerException] Controller class Search.cssController could not be found.
+Exception Attributes: array (
+  'class' => 'Search.cssController',
+  'plugin' => NULL,
+)
+Request URL: /its/search.css
+Stack Trace:
+#0 C:\wamp\www\its\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-27 12:07:51 Error: [MissingControllerException] Controller class SystemDetailController could not be found.
+Exception Attributes: array (
+  'class' => 'SystemDetailController',
+  'plugin' => NULL,
+)
+Request URL: /its/systemDetail/search?search=dsghdgsfdsfd
+Stack Trace:
+#0 C:\wamp\www\its\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-27 12:08:42 Error: [MissingControllerException] Controller class SystemDetailController could not be found.
+Exception Attributes: array (
+  'class' => 'SystemDetailController',
+  'plugin' => NULL,
+)
+Request URL: /its/systemDetail/search?search=dsghdgsfdsfd
+Stack Trace:
+#0 C:\wamp\www\its\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-27 12:13:16 Error: [MissingControllerException] Controller class SystemDetailController could not be found.
+Exception Attributes: array (
+  'class' => 'SystemDetailController',
+  'plugin' => NULL,
+)
+Request URL: /its/SystemDetail/search
+Stack Trace:
+#0 C:\wamp\www\its\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-27 13:09:30 Error: [MissingControllerException] Controller class UserController could not be found.
+Exception Attributes: array (
+  'class' => 'UserController',
+  'plugin' => NULL,
+)
+Request URL: /its/User/logout
+Stack Trace:
+#0 C:\wamp\www\its\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-30 04:20:49 Error: [MissingActionException] Action SystemDetailsController::home() could not be found.
+Exception Attributes: array (
+  'controller' => 'SystemDetailsController',
+  'action' => 'home',
+)
+Request URL: /its/
+Stack Trace:
+#0 C:\wamp\www\its\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\its\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(SystemDetailsController), Object(CakeRequest))
+#2 C:\wamp\www\its\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-06-30 04:20:59 Error: [MissingActionException] Action SystemDetailsController::home() could not be found.
+Exception Attributes: array (
+  'controller' => 'SystemDetailsController',
+  'action' => 'home',
+)
+Request URL: /its/
+Stack Trace:
+#0 C:\wamp\www\its\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\its\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(SystemDetailsController), Object(CakeRequest))
+#2 C:\wamp\www\its\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-06-30 04:21:14 Error: [MissingActionException] Action SystemDetailsController::home() could not be found.
+Exception Attributes: array (
+  'controller' => 'SystemDetailsController',
+  'action' => 'home',
+)
+Request URL: /its/
+Stack Trace:
+#0 C:\wamp\www\its\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\its\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(SystemDetailsController), Object(CakeRequest))
+#2 C:\wamp\www\its\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-06-30 05:11:09 Error: Fatal Error (1): Class 'Locations' not found in [C:\wamp\www\its\app\Controller\SystemDetailsController.php, line 197]
+2014-06-30 05:11:09 Error: [FatalErrorException] Class 'Locations' not found
+Request URL: /its/
+Stack Trace:
+#0 C:\wamp\www\its\lib\Cake\Error\ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Class 'Location...', 'C:\wamp\www\its...', 197)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Location...', 'C:\wamp\www\its...', 197, Array)
+#2 C:\wamp\www\its\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'Location...', 'C:\wamp\www\its...', 197, Array)
+#3 C:\wamp\www\its\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-06-30 05:30:32 Error: Fatal Error (1): Class 'Locations' not found in [C:\wamp\www\its\app\Controller\SystemDetailsController.php, line 205]
+2014-06-30 05:30:32 Error: [FatalErrorException] Class 'Locations' not found
+Request URL: /its/
+Stack Trace:
+#0 C:\wamp\www\its\lib\Cake\Error\ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Class 'Location...', 'C:\wamp\www\its...', 205)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Location...', 'C:\wamp\www\its...', 205, Array)
+#2 C:\wamp\www\its\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'Location...', 'C:\wamp\www\its...', 205, Array)
+#3 C:\wamp\www\its\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-06-30 05:50:51 Error: Fatal Error (1): Class 'Locations' not found in [C:\wamp\www\its\app\Controller\SystemDetailsController.php, line 205]
+2014-06-30 05:50:51 Error: [FatalErrorException] Class 'Locations' not found
+Request URL: /its/
+Stack Trace:
+#0 C:\wamp\www\its\lib\Cake\Error\ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Class 'Location...', 'C:\wamp\www\its...', 205)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Location...', 'C:\wamp\www\its...', 205, Array)
+#2 C:\wamp\www\its\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'Location...', 'C:\wamp\www\its...', 205, Array)
+#3 C:\wamp\www\its\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-06-30 05:52:54 Error: Fatal Error (1): Class 'Locations' not found in [C:\wamp\www\its\app\Controller\SystemDetailsController.php, line 205]
+2014-06-30 05:52:54 Error: [FatalErrorException] Class 'Locations' not found
+Request URL: /its/
+Stack Trace:
+#0 C:\wamp\www\its\lib\Cake\Error\ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Class 'Location...', 'C:\wamp\www\its...', 205)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Location...', 'C:\wamp\www\its...', 205, Array)
+#2 C:\wamp\www\its\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'Location...', 'C:\wamp\www\its...', 205, Array)
+#3 C:\wamp\www\its\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-06-30 05:56:14 Error: Fatal Error (1): Class 'Locations' not found in [C:\wamp\www\its\app\Controller\SystemDetailsController.php, line 213]
+2014-06-30 05:56:14 Error: [FatalErrorException] Class 'Locations' not found
+Request URL: /its/
+Stack Trace:
+#0 C:\wamp\www\its\lib\Cake\Error\ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Class 'Location...', 'C:\wamp\www\its...', 213)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Location...', 'C:\wamp\www\its...', 213, Array)
+#2 C:\wamp\www\its\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'Location...', 'C:\wamp\www\its...', 213, Array)
+#3 C:\wamp\www\its\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-06-30 05:57:13 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\wamp\www\its\app\Controller\SystemDetailsController.php, line 212]
+2014-06-30 05:57:13 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /its/
+Stack Trace:
+#0 C:\wamp\www\its\lib\Cake\Error\ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\wamp\www\its...', 212)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\wamp\www\its...', 212, Array)
+#2 C:\wamp\www\its\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\wamp\www\its...', 212, Array)
+#3 C:\wamp\www\its\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-06-30 05:57:27 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\wamp\www\its\app\Controller\SystemDetailsController.php, line 212]
+2014-06-30 05:57:27 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /its/
+Stack Trace:
+#0 C:\wamp\www\its\lib\Cake\Error\ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\wamp\www\its...', 212)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\wamp\www\its...', 212, Array)
+#2 C:\wamp\www\its\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\wamp\www\its...', 212, Array)
+#3 C:\wamp\www\its\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-06-30 05:58:07 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\wamp\www\its\app\Controller\SystemDetailsController.php, line 212]
+2014-06-30 05:58:07 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /its/
+Stack Trace:
+#0 C:\wamp\www\its\lib\Cake\Error\ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\wamp\www\its...', 212)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\wamp\www\its...', 212, Array)
+#2 C:\wamp\www\its\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\wamp\www\its...', 212, Array)
+#3 C:\wamp\www\its\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-06-30 05:58:10 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\wamp\www\its\app\Controller\SystemDetailsController.php, line 212]
+2014-06-30 05:58:10 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /its/
+Stack Trace:
+#0 C:\wamp\www\its\lib\Cake\Error\ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\wamp\www\its...', 212)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\wamp\www\its...', 212, Array)
+#2 C:\wamp\www\its\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\wamp\www\its...', 212, Array)
+#3 C:\wamp\www\its\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-06-30 05:58:12 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\wamp\www\its\app\Controller\SystemDetailsController.php, line 212]
+2014-06-30 05:58:12 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /its/
+Stack Trace:
+#0 C:\wamp\www\its\lib\Cake\Error\ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\wamp\www\its...', 212)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\wamp\www\its...', 212, Array)
+#2 C:\wamp\www\its\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\wamp\www\its...', 212, Array)
+#3 C:\wamp\www\its\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-06-30 05:58:31 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Location.location_id' in 'field list'
+Request URL: /its/
+Stack Trace:
+#0 C:\wamp\www\its\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\wamp\www\its\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `Locatio...', Array)
+#2 C:\wamp\www\its\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT `Locatio...', Array, Array)
+#3 C:\wamp\www\its\lib\Cake\Model\Datasource\DboSource.php(1421): DboSource->fetchAll('SELECT `Locatio...', false)
+#4 C:\wamp\www\its\lib\Cake\Model\Datasource\DboSource.php(1259): DboSource->_fetchHasMany(Object(SystemDetail), 'SELECT `Locatio...', Array)
+#5 C:\wamp\www\its\lib\Cake\Model\Datasource\DboSource.php(1142): DboSource->queryAssociation(Object(SystemDetail), Object(Location), 'hasMany', 'Location', Array, Array, true, Array, 0, Array)
+#6 C:\wamp\www\its\lib\Cake\Model\Model.php(2905): DboSource->read(Object(SystemDetail), Array)
+#7 C:\wamp\www\its\lib\Cake\Model\Model.php(2877): Model->_readDataSource('all', Array)
+#8 C:\wamp\www\its\app\Controller\SystemDetailsController.php(210): Model->find('all', Array)
+#9 [internal function]: SystemDetailsController->home('home')
+#10 C:\wamp\www\its\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(SystemDetailsController), Array)
+#11 C:\wamp\www\its\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#12 C:\wamp\www\its\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(SystemDetailsController), Object(CakeRequest))
+#13 C:\wamp\www\its\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-06-30 06:00:11 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Location.location_id' in 'field list'
+Request URL: /its/
+Stack Trace:
+#0 C:\wamp\www\its\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\wamp\www\its\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `Locatio...', Array)
+#2 C:\wamp\www\its\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT `Locatio...', Array, Array)
+#3 C:\wamp\www\its\lib\Cake\Model\Datasource\DboSource.php(1421): DboSource->fetchAll('SELECT `Locatio...', false)
+#4 C:\wamp\www\its\lib\Cake\Model\Datasource\DboSource.php(1259): DboSource->_fetchHasMany(Object(SystemDetail), 'SELECT `Locatio...', Array)
+#5 C:\wamp\www\its\lib\Cake\Model\Datasource\DboSource.php(1142): DboSource->queryAssociation(Object(SystemDetail), Object(Location), 'hasMany', 'Location', Array, Array, true, Array, 0, Array)
+#6 C:\wamp\www\its\lib\Cake\Model\Model.php(2905): DboSource->read(Object(SystemDetail), Array)
+#7 C:\wamp\www\its\lib\Cake\Model\Model.php(2877): Model->_readDataSource('all', Array)
+#8 C:\wamp\www\its\app\Controller\SystemDetailsController.php(210): Model->find('all', Array)
+#9 [internal function]: SystemDetailsController->home('home')
+#10 C:\wamp\www\its\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(SystemDetailsController), Array)
+#11 C:\wamp\www\its\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#12 C:\wamp\www\its\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(SystemDetailsController), Object(CakeRequest))
+#13 C:\wamp\www\its\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-06-30 07:49:46 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\wamp\www\its\app\Controller\LocationsController.php, line 32]
+2014-06-30 07:49:46 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /its/Locations
+Stack Trace:
+#0 C:\wamp\www\its\lib\Cake\Error\ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\wamp\www\its...', 32)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\wamp\www\its...', 32, Array)
+#2 C:\wamp\www\its\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\wamp\www\its...', 32, Array)
+#3 C:\wamp\www\its\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-06-30 08:06:09 Error: [MissingActionException] Action SystemDetailsController::filter() could not be found.
+Exception Attributes: array (
+  'controller' => 'SystemDetailsController',
+  'action' => 'filter',
+)
+Request URL: /its/SystemDetails/filter/1
+Stack Trace:
+#0 C:\wamp\www\its\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\its\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(SystemDetailsController), Object(CakeRequest))
+#2 C:\wamp\www\its\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-06-30 08:18:16 Error: [MissingActionException] Action SystemDetailsController::export() could not be found.
+Exception Attributes: array (
+  'controller' => 'SystemDetailsController',
+  'action' => 'export',
+)
+Request URL: /its/SystemDetails/export
+Stack Trace:
+#0 C:\wamp\www\its\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\its\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(SystemDetailsController), Object(CakeRequest))
+#2 C:\wamp\www\its\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-06-30 09:38:35 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'id' in where clause is ambiguous
+Request URL: /its/SystemDetails/filter/model:1
+Stack Trace:
+#0 C:\wamp\www\its\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\wamp\www\its\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `SystemD...', Array)
+#2 C:\wamp\www\its\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT `SystemD...', Array, Array)
+#3 C:\wamp\www\its\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `SystemD...', false)
+#4 C:\wamp\www\its\lib\Cake\Model\Model.php(2905): DboSource->read(Object(SystemDetail), Array)
+#5 C:\wamp\www\its\lib\Cake\Model\Model.php(2877): Model->_readDataSource('first', Array)
+#6 C:\wamp\www\its\app\Controller\SystemDetailsController.php(292): Model->find('first', Array)
+#7 [internal function]: SystemDetailsController->filter()
+#8 C:\wamp\www\its\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(SystemDetailsController), Array)
+#9 C:\wamp\www\its\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\www\its\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(SystemDetailsController), Object(CakeRequest))
+#11 C:\wamp\www\its\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-06-30 09:39:06 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'id' in where clause is ambiguous
+Request URL: /its/SystemDetails/filter/model:1
+Stack Trace:
+#0 C:\wamp\www\its\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\wamp\www\its\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `SystemD...', Array)
+#2 C:\wamp\www\its\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT `SystemD...', Array, Array)
+#3 C:\wamp\www\its\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `SystemD...', false)
+#4 C:\wamp\www\its\lib\Cake\Model\Model.php(2905): DboSource->read(Object(SystemDetail), Array)
+#5 C:\wamp\www\its\lib\Cake\Model\Model.php(2877): Model->_readDataSource('first', Array)
+#6 C:\wamp\www\its\app\Controller\SystemDetailsController.php(292): Model->find('first', Array)
+#7 [internal function]: SystemDetailsController->filter()
+#8 C:\wamp\www\its\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(SystemDetailsController), Array)
+#9 C:\wamp\www\its\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\www\its\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(SystemDetailsController), Object(CakeRequest))
+#11 C:\wamp\www\its\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-06-30 10:18:05 Error: [MissingControllerException] Controller class ExportController could not be found.
+Exception Attributes: array (
+  'class' => 'ExportController',
+  'plugin' => NULL,
+)
+Request URL: /its/export/
+Stack Trace:
+#0 C:\wamp\www\its\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-30 10:18:25 Error: Fatal Error (1): Call to a member function createWorksheet() on a non-object in [C:\wamp\www\its\app\Controller\SystemDetailsController.php, line 316]
+2014-06-30 10:18:25 Error: [FatalErrorException] Call to a member function createWorksheet() on a non-object
+Request URL: /its/SystemDetails/export
+Stack Trace:
+#0 C:\wamp\www\its\lib\Cake\Error\ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\wamp\www\its...', 316)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\wamp\www\its...', 316, Array)
+#2 C:\wamp\www\its\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\wamp\www\its...', 316, Array)
+#3 C:\wamp\www\its\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-06-30 10:18:58 Error: Fatal Error (1): Class 'PHPExcel' not found in [C:\wamp\www\its\app\Controller\Component\PhpExcelComponent.php, line 48]
+2014-06-30 10:18:58 Error: [FatalErrorException] Class 'PHPExcel' not found
+Request URL: /its/SystemDetails/export
+Stack Trace:
+#0 C:\wamp\www\its\lib\Cake\Error\ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Class 'PHPExcel...', 'C:\wamp\www\its...', 48)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'PHPExcel...', 'C:\wamp\www\its...', 48, Array)
+#2 C:\wamp\www\its\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'PHPExcel...', 'C:\wamp\www\its...', 48, Array)
+#3 C:\wamp\www\its\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-06-30 10:19:44 Error: [MissingComponentException] Component class PhpExcelComponentComponent could not be found.
+Exception Attributes: array (
+  'class' => 'PhpExcelComponentComponent',
+  'plugin' => false,
+)
+Request URL: /its/SystemDetails/export
+Stack Trace:
+#0 C:\wamp\www\its\lib\Cake\Controller\ComponentCollection.php(53): ComponentCollection->load('PhpExcelCompone...', Array)
+#1 C:\wamp\www\its\lib\Cake\Controller\Controller.php(643): ComponentCollection->init(Object(SystemDetailsController))
+#2 C:\wamp\www\its\lib\Cake\Routing\Dispatcher.php(186): Controller->constructClasses()
+#3 C:\wamp\www\its\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(SystemDetailsController), Object(CakeRequest))
+#4 C:\wamp\www\its\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-06-30 10:19:54 Error: Fatal Error (1): Class 'PHPExcel' not found in [C:\wamp\www\its\app\Controller\Component\PhpExcelComponent.php, line 48]
+2014-06-30 10:19:54 Error: [FatalErrorException] Class 'PHPExcel' not found
+Request URL: /its/SystemDetails/export
+Stack Trace:
+#0 C:\wamp\www\its\lib\Cake\Error\ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Class 'PHPExcel...', 'C:\wamp\www\its...', 48)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'PHPExcel...', 'C:\wamp\www\its...', 48, Array)
+#2 C:\wamp\www\its\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'PHPExcel...', 'C:\wamp\www\its...', 48, Array)
+#3 C:\wamp\www\its\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-06-30 10:27:48 Error: [CakeException] Vendor class PHPExcel not found!
+Request URL: /its/SystemDetails/export
+Stack Trace:
+#0 [internal function]: SystemDetailsController->export()
+#1 C:\wamp\www\its\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(SystemDetailsController), Array)
+#2 C:\wamp\www\its\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\its\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(SystemDetailsController), Object(CakeRequest))
+#4 C:\wamp\www\its\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-06-30 10:28:41 Error: [CakeException] Vendor class PHPExcel not found!
+Request URL: /its/SystemDetails/export
+Stack Trace:
+#0 [internal function]: SystemDetailsController->export()
+#1 C:\wamp\www\its\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(SystemDetailsController), Array)
+#2 C:\wamp\www\its\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\its\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(SystemDetailsController), Object(CakeRequest))
+#4 C:\wamp\www\its\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-06-30 10:28:45 Error: [CakeException] Vendor class PHPExcel not found!
+Request URL: /its/SystemDetails/export
+Stack Trace:
+#0 [internal function]: SystemDetailsController->export()
+#1 C:\wamp\www\its\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(SystemDetailsController), Array)
+#2 C:\wamp\www\its\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 C:\wamp\www\its\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(SystemDetailsController), Object(CakeRequest))
+#4 C:\wamp\www\its\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-06-30 10:30:27 Error: [MissingViewException] View file "C:\wamp\www\its\app\View\SystemDetails\export.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\wamp\\www\\its\\app\\View\\SystemDetails\\export.ctp',
+)
+Request URL: /its/SystemDetails/export
+Stack Trace:
+#0 C:\wamp\www\its\lib\Cake\View\View.php(468): View->_getViewFileName(NULL)
+#1 C:\wamp\www\its\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#2 C:\wamp\www\its\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#3 C:\wamp\www\its\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(SystemDetailsController), Object(CakeRequest))
+#4 C:\wamp\www\its\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-06-30 10:36:42 Error: Fatal Error (1): Call to a member function createWorksheet() on a non-object in [C:\wamp\www\its\app\Controller\SystemDetailsController.php, line 320]
+2014-06-30 10:36:42 Error: [FatalErrorException] Call to a member function createWorksheet() on a non-object
+Request URL: /its/SystemDetails/export
+Stack Trace:
+#0 C:\wamp\www\its\lib\Cake\Error\ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\wamp\www\its...', 320)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\wamp\www\its...', 320, Array)
+#2 C:\wamp\www\its\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\wamp\www\its...', 320, Array)
+#3 C:\wamp\www\its\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-06-30 11:02:54 Error: Fatal Error (1): Call to undefined method PHPExcel::createWorksheet() in [C:\wamp\www\its\app\Controller\SystemDetailsController.php, line 321]
+2014-06-30 11:02:54 Error: [FatalErrorException] Call to undefined method PHPExcel::createWorksheet()
+Request URL: /its/SystemDetails/export
+Stack Trace:
+#0 C:\wamp\www\its\lib\Cake\Error\ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\wamp\www\its...', 321)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\wamp\www\its...', 321, Array)
+#2 C:\wamp\www\its\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\wamp\www\its...', 321, Array)
+#3 C:\wamp\www\its\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-06-30 11:07:18 Error: Fatal Error (1): Call to a member function createWorksheet() on a non-object in [C:\wamp\www\its\app\Controller\SystemDetailsController.php, line 322]
+2014-06-30 11:07:18 Error: [FatalErrorException] Call to a member function createWorksheet() on a non-object
+Request URL: /its/SystemDetails/export
+Stack Trace:
+#0 C:\wamp\www\its\lib\Cake\Error\ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\wamp\www\its...', 322)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\wamp\www\its...', 322, Array)
+#2 C:\wamp\www\its\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\wamp\www\its...', 322, Array)
+#3 C:\wamp\www\its\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-06-30 11:09:29 Error: Fatal Error (1): Call to a member function createWorksheet() on a non-object in [C:\wamp\www\its\app\Controller\SystemDetailsController.php, line 322]
+2014-06-30 11:09:29 Error: [FatalErrorException] Call to a member function createWorksheet() on a non-object
+Request URL: /its/SystemDetails/export
+Stack Trace:
+#0 C:\wamp\www\its\lib\Cake\Error\ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\wamp\www\its...', 322)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\wamp\www\its...', 322, Array)
+#2 C:\wamp\www\its\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\wamp\www\its...', 322, Array)
+#3 C:\wamp\www\its\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-06-30 11:13:22 Error: Fatal Error (1): Call to a member function createWorksheet() on a non-object in [C:\wamp\www\its\app\Controller\SystemDetailsController.php, line 322]
+2014-06-30 11:13:22 Error: [FatalErrorException] Call to a member function createWorksheet() on a non-object
+Request URL: /its/SystemDetails/export
+Stack Trace:
+#0 C:\wamp\www\its\lib\Cake\Error\ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\wamp\www\its...', 322)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\wamp\www\its...', 322, Array)
+#2 C:\wamp\www\its\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\wamp\www\its...', 322, Array)
+#3 C:\wamp\www\its\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-06-30 11:13:54 Error: Fatal Error (1): Call to a member function addSheet() on a non-object in [C:\wamp\www\its\app\Controller\SystemDetailsController.php, line 322]
+2014-06-30 11:13:54 Error: [FatalErrorException] Call to a member function addSheet() on a non-object
+Request URL: /its/SystemDetails/export
+Stack Trace:
+#0 C:\wamp\www\its\lib\Cake\Error\ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\wamp\www\its...', 322)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\wamp\www\its...', 322, Array)
+#2 C:\wamp\www\its\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\wamp\www\its...', 322, Array)
+#3 C:\wamp\www\its\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-06-30 11:19:55 Error: [MissingActionException] Action SystemDetailsController::export() could not be found.
+Exception Attributes: array (
+  'controller' => 'SystemDetailsController',
+  'action' => 'export',
+)
+Request URL: /its/SystemDetails/export
+Stack Trace:
+#0 C:\wamp\www\its\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\its\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(SystemDetailsController), Object(CakeRequest))
+#2 C:\wamp\www\its\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-06-30 11:19:58 Error: Fatal Error (1): Class 'PHPExcel' not found in [C:\wamp\www\its\app\Controller\Component\PhpExcelComponent.php, line 48]
+2014-06-30 11:19:58 Error: [FatalErrorException] Class 'PHPExcel' not found
+Request URL: /its/SystemDetails/export1
+Stack Trace:
+#0 C:\wamp\www\its\lib\Cake\Error\ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Class 'PHPExcel...', 'C:\wamp\www\its...', 48)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'PHPExcel...', 'C:\wamp\www\its...', 48, Array)
+#2 C:\wamp\www\its\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'PHPExcel...', 'C:\wamp\www\its...', 48, Array)
+#3 C:\wamp\www\its\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-06-30 11:21:48 Error: Fatal Error (1): Class 'PHPExcel' not found in [C:\wamp\www\its\app\Controller\Component\PhpExcelComponent.php, line 48]
+2014-06-30 11:21:48 Error: [FatalErrorException] Class 'PHPExcel' not found
+Request URL: /its/SystemDetails/export1
+Stack Trace:
+#0 C:\wamp\www\its\lib\Cake\Error\ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Class 'PHPExcel...', 'C:\wamp\www\its...', 48)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'PHPExcel...', 'C:\wamp\www\its...', 48, Array)
+#2 C:\wamp\www\its\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'PHPExcel...', 'C:\wamp\www\its...', 48, Array)
+#3 C:\wamp\www\its\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-06-30 11:21:49 Error: Fatal Error (1): Class 'PHPExcel' not found in [C:\wamp\www\its\app\Controller\Component\PhpExcelComponent.php, line 48]
+2014-06-30 11:21:49 Error: [FatalErrorException] Class 'PHPExcel' not found
+Request URL: /its/SystemDetails/export1
+Stack Trace:
+#0 C:\wamp\www\its\lib\Cake\Error\ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Class 'PHPExcel...', 'C:\wamp\www\its...', 48)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'PHPExcel...', 'C:\wamp\www\its...', 48, Array)
+#2 C:\wamp\www\its\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'PHPExcel...', 'C:\wamp\www\its...', 48, Array)
+#3 C:\wamp\www\its\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-06-30 11:21:49 Error: Fatal Error (1): Class 'PHPExcel' not found in [C:\wamp\www\its\app\Controller\Component\PhpExcelComponent.php, line 48]
+2014-06-30 11:21:49 Error: [FatalErrorException] Class 'PHPExcel' not found
+Request URL: /its/SystemDetails/export1
+Stack Trace:
+#0 C:\wamp\www\its\lib\Cake\Error\ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Class 'PHPExcel...', 'C:\wamp\www\its...', 48)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'PHPExcel...', 'C:\wamp\www\its...', 48, Array)
+#2 C:\wamp\www\its\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'PHPExcel...', 'C:\wamp\www\its...', 48, Array)
+#3 C:\wamp\www\its\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-06-30 11:21:49 Error: Fatal Error (1): Class 'PHPExcel' not found in [C:\wamp\www\its\app\Controller\Component\PhpExcelComponent.php, line 48]
+2014-06-30 11:21:49 Error: [FatalErrorException] Class 'PHPExcel' not found
+Request URL: /its/SystemDetails/export1
+Stack Trace:
+#0 C:\wamp\www\its\lib\Cake\Error\ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Class 'PHPExcel...', 'C:\wamp\www\its...', 48)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'PHPExcel...', 'C:\wamp\www\its...', 48, Array)
+#2 C:\wamp\www\its\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'PHPExcel...', 'C:\wamp\www\its...', 48, Array)
+#3 C:\wamp\www\its\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-06-30 11:21:49 Error: Fatal Error (1): Class 'PHPExcel' not found in [C:\wamp\www\its\app\Controller\Component\PhpExcelComponent.php, line 48]
+2014-06-30 11:21:49 Error: [FatalErrorException] Class 'PHPExcel' not found
+Request URL: /its/SystemDetails/export1
+Stack Trace:
+#0 C:\wamp\www\its\lib\Cake\Error\ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Class 'PHPExcel...', 'C:\wamp\www\its...', 48)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'PHPExcel...', 'C:\wamp\www\its...', 48, Array)
+#2 C:\wamp\www\its\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'PHPExcel...', 'C:\wamp\www\its...', 48, Array)
+#3 C:\wamp\www\its\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-06-30 11:21:49 Error: Fatal Error (1): Class 'PHPExcel' not found in [C:\wamp\www\its\app\Controller\Component\PhpExcelComponent.php, line 48]
+2014-06-30 11:21:49 Error: [FatalErrorException] Class 'PHPExcel' not found
+Request URL: /its/SystemDetails/export1
+Stack Trace:
+#0 C:\wamp\www\its\lib\Cake\Error\ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Class 'PHPExcel...', 'C:\wamp\www\its...', 48)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'PHPExcel...', 'C:\wamp\www\its...', 48, Array)
+#2 C:\wamp\www\its\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'PHPExcel...', 'C:\wamp\www\its...', 48, Array)
+#3 C:\wamp\www\its\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-06-30 11:21:49 Error: Fatal Error (1): Class 'PHPExcel' not found in [C:\wamp\www\its\app\Controller\Component\PhpExcelComponent.php, line 48]
+2014-06-30 11:21:49 Error: [FatalErrorException] Class 'PHPExcel' not found
+Request URL: /its/SystemDetails/export1
+Stack Trace:
+#0 C:\wamp\www\its\lib\Cake\Error\ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Class 'PHPExcel...', 'C:\wamp\www\its...', 48)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'PHPExcel...', 'C:\wamp\www\its...', 48, Array)
+#2 C:\wamp\www\its\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'PHPExcel...', 'C:\wamp\www\its...', 48, Array)
+#3 C:\wamp\www\its\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-06-30 11:21:49 Error: Fatal Error (1): Class 'PHPExcel' not found in [C:\wamp\www\its\app\Controller\Component\PhpExcelComponent.php, line 48]
+2014-06-30 11:21:49 Error: [FatalErrorException] Class 'PHPExcel' not found
+Request URL: /its/SystemDetails/export1
+Stack Trace:
+#0 C:\wamp\www\its\lib\Cake\Error\ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Class 'PHPExcel...', 'C:\wamp\www\its...', 48)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'PHPExcel...', 'C:\wamp\www\its...', 48, Array)
+#2 C:\wamp\www\its\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'PHPExcel...', 'C:\wamp\www\its...', 48, Array)
+#3 C:\wamp\www\its\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-06-30 11:21:49 Error: Fatal Error (1): Class 'PHPExcel' not found in [C:\wamp\www\its\app\Controller\Component\PhpExcelComponent.php, line 48]
+2014-06-30 11:21:49 Error: [FatalErrorException] Class 'PHPExcel' not found
+Request URL: /its/SystemDetails/export1
+Stack Trace:
+#0 C:\wamp\www\its\lib\Cake\Error\ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Class 'PHPExcel...', 'C:\wamp\www\its...', 48)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'PHPExcel...', 'C:\wamp\www\its...', 48, Array)
+#2 C:\wamp\www\its\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'PHPExcel...', 'C:\wamp\www\its...', 48, Array)
+#3 C:\wamp\www\its\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-06-30 11:22:46 Error: Fatal Error (1): Class 'PHPExcel' not found in [C:\wamp\www\its\app\Controller\Component\PhpExcelComponent.php, line 48]
+2014-06-30 11:22:46 Error: [FatalErrorException] Class 'PHPExcel' not found
+Request URL: /its/SystemDetails/export1
+Stack Trace:
+#0 C:\wamp\www\its\lib\Cake\Error\ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Class 'PHPExcel...', 'C:\wamp\www\its...', 48)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'PHPExcel...', 'C:\wamp\www\its...', 48, Array)
+#2 C:\wamp\www\its\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'PHPExcel...', 'C:\wamp\www\its...', 48, Array)
+#3 C:\wamp\www\its\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-06-30 11:22:56 Error: Fatal Error (1): Class 'PHPExcel' not found in [C:\wamp\www\its\app\Controller\Component\PhpExcelComponent.php, line 48]
+2014-06-30 11:22:56 Error: [FatalErrorException] Class 'PHPExcel' not found
+Request URL: /its/SystemDetails/export1
+Stack Trace:
+#0 C:\wamp\www\its\lib\Cake\Error\ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Class 'PHPExcel...', 'C:\wamp\www\its...', 48)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'PHPExcel...', 'C:\wamp\www\its...', 48, Array)
+#2 C:\wamp\www\its\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'PHPExcel...', 'C:\wamp\www\its...', 48, Array)
+#3 C:\wamp\www\its\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-06-30 11:23:03 Error: Fatal Error (1): Class 'PHPExcel' not found in [C:\wamp\www\its\app\Controller\Component\PhpExcelComponent.php, line 48]
+2014-06-30 11:23:03 Error: [FatalErrorException] Class 'PHPExcel' not found
+Request URL: /its/SystemDetails/export1
+Stack Trace:
+#0 C:\wamp\www\its\lib\Cake\Error\ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Class 'PHPExcel...', 'C:\wamp\www\its...', 48)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'PHPExcel...', 'C:\wamp\www\its...', 48, Array)
+#2 C:\wamp\www\its\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'PHPExcel...', 'C:\wamp\www\its...', 48, Array)
+#3 C:\wamp\www\its\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-06-30 11:23:13 Error: Fatal Error (1): Class 'PhpExcel' not found in [C:\wamp\www\its\app\Controller\Component\PhpExcelComponent.php, line 48]
+2014-06-30 11:23:13 Error: [FatalErrorException] Class 'PhpExcel' not found
+Request URL: /its/SystemDetails/export1
+Stack Trace:
+#0 C:\wamp\www\its\lib\Cake\Error\ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Class 'PhpExcel...', 'C:\wamp\www\its...', 48)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'PhpExcel...', 'C:\wamp\www\its...', 48, Array)
+#2 C:\wamp\www\its\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'PhpExcel...', 'C:\wamp\www\its...', 48, Array)
+#3 C:\wamp\www\its\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-06-30 11:24:27 Error: [MissingViewException] View file "C:\wamp\www\its\app\View\SystemDetails\export1.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\wamp\\www\\its\\app\\View\\SystemDetails\\export1.ctp',
+)
+Request URL: /its/SystemDetails/export1
+Stack Trace:
+#0 C:\wamp\www\its\lib\Cake\View\View.php(468): View->_getViewFileName(NULL)
+#1 C:\wamp\www\its\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#2 C:\wamp\www\its\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#3 C:\wamp\www\its\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(SystemDetailsController), Object(CakeRequest))
+#4 C:\wamp\www\its\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-06-30 11:38:30 Error: Fatal Error (1): Call to undefined method PHPExcel_Writer_Excel2007::setTitle() in [C:\wamp\www\its\app\Controller\SystemDetailsController.php, line 324]
+2014-06-30 11:38:30 Error: [FatalErrorException] Call to undefined method PHPExcel_Writer_Excel2007::setTitle()
+Request URL: /its/SystemDetails/export1
+Stack Trace:
+#0 C:\wamp\www\its\lib\Cake\Error\ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\wamp\www\its...', 324)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\wamp\www\its...', 324, Array)
+#2 C:\wamp\www\its\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\wamp\www\its...', 324, Array)
+#3 C:\wamp\www\its\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-06-30 11:40:04 Error: Fatal Error (1): Call to a member function setCreator() on a non-object in [C:\wamp\www\its\app\Controller\SystemDetailsController.php, line 322]
+2014-06-30 11:40:04 Error: [FatalErrorException] Call to a member function setCreator() on a non-object
+Request URL: /its/SystemDetails/export1
+Stack Trace:
+#0 C:\wamp\www\its\lib\Cake\Error\ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\wamp\www\its...', 322)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\wamp\www\its...', 322, Array)
+#2 C:\wamp\www\its\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\wamp\www\its...', 322, Array)
+#3 C:\wamp\www\its\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-01 04:25:57 Error: Fatal Error (1): Call to a member function getSheet() on a non-object in [C:\wamp\www\its\app\Controller\SystemDetailsController.php, line 325]
+2014-07-01 04:25:57 Error: [FatalErrorException] Call to a member function getSheet() on a non-object
+Request URL: /its/SystemDetails/export
+Stack Trace:
+#0 C:\wamp\www\its\lib\Cake\Error\ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\wamp\www\its...', 325)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\wamp\www\its...', 325, Array)
+#2 C:\wamp\www\its\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\wamp\www\its...', 325, Array)
+#3 C:\wamp\www\its\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-01 05:04:05 Error: Fatal Error (1): Call to a member function setTitle() on a non-object in [C:\wamp\www\its\app\Controller\SystemDetailsController.php, line 323]
+2014-07-01 05:04:05 Error: [FatalErrorException] Call to a member function setTitle() on a non-object
+Request URL: /its/SystemDetails/export
+Stack Trace:
+#0 C:\wamp\www\its\lib\Cake\Error\ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\wamp\www\its...', 323)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\wamp\www\its...', 323, Array)
+#2 C:\wamp\www\its\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\wamp\www\its...', 323, Array)
+#3 C:\wamp\www\its\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-01 05:11:03 Error: Fatal Error (1): Call to a member function getStyle() on a non-object in [C:\wamp\www\its\app\Controller\SystemDetailsController.php, line 336]
+2014-07-01 05:11:03 Error: [FatalErrorException] Call to a member function getStyle() on a non-object
+Request URL: /its/SystemDetails/export
+Stack Trace:
+#0 C:\wamp\www\its\lib\Cake\Error\ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\wamp\www\its...', 336)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\wamp\www\its...', 336, Array)
+#2 C:\wamp\www\its\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\wamp\www\its...', 336, Array)
+#3 C:\wamp\www\its\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-01 05:12:33 Error: Fatal Error (1): Undefined class constant 'BORDER_BOLD' in [C:\wamp\www\its\app\Controller\SystemDetailsController.php, line 330]
+2014-07-01 05:12:33 Error: [FatalErrorException] Undefined class constant 'BORDER_BOLD'
+Request URL: /its/SystemDetails/export
+Stack Trace:
+#0 C:\wamp\www\its\lib\Cake\Error\ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Undefined class...', 'C:\wamp\www\its...', 330)
+#1 [internal function]: ErrorHandler::handleError(1, 'Undefined class...', 'C:\wamp\www\its...', 330, Array)
+#2 C:\wamp\www\its\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Undefined class...', 'C:\wamp\www\its...', 330, Array)
+#3 C:\wamp\www\its\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-01 05:15:45 Error: [PHPExcel_Exception] Your requested sheet index: 2 is out of bounds. The actual number of sheets is 2.
+Request URL: /its/SystemDetails/export
+Stack Trace:
+#0 [internal function]: PHPExcel->getSheet(2)
+#1 C:\wamp\www\its\app\Controller\Component\PhpExcelComponent.php(121): call_user_func_array(Array, Array)
+#2 C:\wamp\www\its\app\Controller\SystemDetailsController.php(325): PhpExcelComponent->__call('getSheet', Array)
+#3 C:\wamp\www\its\app\Controller\SystemDetailsController.php(325): PhpExcelComponent->getSheet(2)
+#4 [internal function]: SystemDetailsController->export()
+#5 C:\wamp\www\its\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(SystemDetailsController), Array)
+#6 C:\wamp\www\its\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#7 C:\wamp\www\its\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(SystemDetailsController), Object(CakeRequest))
+#8 C:\wamp\www\its\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2014-07-01 05:16:08 Error: [PHPExcel_Exception] Your requested sheet index: 2 is out of bounds. The actual number of sheets is 2.
+Request URL: /its/SystemDetails/export
+Stack Trace:
+#0 [internal function]: PHPExcel->getSheet(2)
+#1 C:\wamp\www\its\app\Controller\Component\PhpExcelComponent.php(121): call_user_func_array(Array, Array)
+#2 C:\wamp\www\its\app\Controller\SystemDetailsController.php(325): PhpExcelComponent->__call('getSheet', Array)
+#3 C:\wamp\www\its\app\Controller\SystemDetailsController.php(325): PhpExcelComponent->getSheet(2)
+#4 [internal function]: SystemDetailsController->export()
+#5 C:\wamp\www\its\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(SystemDetailsController), Array)
+#6 C:\wamp\www\its\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#7 C:\wamp\www\its\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(SystemDetailsController), Object(CakeRequest))
+#8 C:\wamp\www\its\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2014-07-01 05:16:36 Error: [PHPExcel_Exception] Your requested sheet index: 2 is out of bounds. The actual number of sheets is 2.
+Request URL: /its/SystemDetails/export
+Stack Trace:
+#0 [internal function]: PHPExcel->getSheet(2)
+#1 C:\wamp\www\its\app\Controller\Component\PhpExcelComponent.php(121): call_user_func_array(Array, Array)
+#2 C:\wamp\www\its\app\Controller\SystemDetailsController.php(325): PhpExcelComponent->__call('getSheet', Array)
+#3 C:\wamp\www\its\app\Controller\SystemDetailsController.php(325): PhpExcelComponent->getSheet(2)
+#4 [internal function]: SystemDetailsController->export()
+#5 C:\wamp\www\its\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(SystemDetailsController), Array)
+#6 C:\wamp\www\its\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#7 C:\wamp\www\its\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(SystemDetailsController), Object(CakeRequest))
+#8 C:\wamp\www\its\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2014-07-01 05:18:29 Error: Fatal Error (1): Call to a member function setActiveSheetIndex() on a non-object in [C:\wamp\www\its\app\Controller\SystemDetailsController.php, line 324]
+2014-07-01 05:18:29 Error: [FatalErrorException] Call to a member function setActiveSheetIndex() on a non-object
+Request URL: /its/SystemDetails/export
+Stack Trace:
+#0 C:\wamp\www\its\lib\Cake\Error\ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\wamp\www\its...', 324)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\wamp\www\its...', 324, Array)
+#2 C:\wamp\www\its\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\wamp\www\its...', 324, Array)
+#3 C:\wamp\www\its\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-01 05:19:27 Error: Fatal Error (1): Call to undefined method PHPExcel_Worksheet::addTableRow() in [C:\wamp\www\its\app\Controller\SystemDetailsController.php, line 346]
+2014-07-01 05:19:27 Error: [FatalErrorException] Call to undefined method PHPExcel_Worksheet::addTableRow()
+Request URL: /its/SystemDetails/export
+Stack Trace:
+#0 C:\wamp\www\its\lib\Cake\Error\ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\wamp\www\its...', 346)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\wamp\www\its...', 346, Array)
+#2 C:\wamp\www\its\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\wamp\www\its...', 346, Array)
+#3 C:\wamp\www\its\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-01 05:31:22 Error: Fatal Error (1): Call to undefined method PHPExcel_Style_Borders::setBorderStyle() in [C:\wamp\www\its\app\Controller\SystemDetailsController.php, line 333]
+2014-07-01 05:31:22 Error: [FatalErrorException] Call to undefined method PHPExcel_Style_Borders::setBorderStyle()
+Request URL: /its/SystemDetails/export
+Stack Trace:
+#0 C:\wamp\www\its\lib\Cake\Error\ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\wamp\www\its...', 333)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\wamp\www\its...', 333, Array)
+#2 C:\wamp\www\its\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\wamp\www\its...', 333, Array)
+#3 C:\wamp\www\its\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-01 05:43:44 Error: Fatal Error (1): Call to undefined method PHPExcel_Style::setAutoSize() in [C:\wamp\www\its\app\Controller\SystemDetailsController.php, line 331]
+2014-07-01 05:43:44 Error: [FatalErrorException] Call to undefined method PHPExcel_Style::setAutoSize()
+Request URL: /its/SystemDetails/export
+Stack Trace:
+#0 C:\wamp\www\its\lib\Cake\Error\ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\wamp\www\its...', 331)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\wamp\www\its...', 331, Array)
+#2 C:\wamp\www\its\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\wamp\www\its...', 331, Array)
+#3 C:\wamp\www\its\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-01 05:44:09 Error: Fatal Error (1): Call to undefined method PHPExcel_Style::getStyle() in [C:\wamp\www\its\app\Controller\SystemDetailsController.php, line 331]
+2014-07-01 05:44:09 Error: [FatalErrorException] Call to undefined method PHPExcel_Style::getStyle()
+Request URL: /its/SystemDetails/export
+Stack Trace:
+#0 C:\wamp\www\its\lib\Cake\Error\ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\wamp\www\its...', 331)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\wamp\www\its...', 331, Array)
+#2 C:\wamp\www\its\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\wamp\www\its...', 331, Array)
+#3 C:\wamp\www\its\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-01 05:44:30 Error: Fatal Error (1): Call to undefined method PHPExcel_Style::getAutoSize() in [C:\wamp\www\its\app\Controller\SystemDetailsController.php, line 331]
+2014-07-01 05:44:30 Error: [FatalErrorException] Call to undefined method PHPExcel_Style::getAutoSize()
+Request URL: /its/SystemDetails/export
+Stack Trace:
+#0 C:\wamp\www\its\lib\Cake\Error\ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\wamp\www\its...', 331)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\wamp\www\its...', 331, Array)
+#2 C:\wamp\www\its\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\wamp\www\its...', 331, Array)
+#3 C:\wamp\www\its\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-01 05:44:47 Error: Fatal Error (1): Call to undefined method PHPExcel_Worksheet::getAutoSize() in [C:\wamp\www\its\app\Controller\SystemDetailsController.php, line 331]
+2014-07-01 05:44:47 Error: [FatalErrorException] Call to undefined method PHPExcel_Worksheet::getAutoSize()
+Request URL: /its/SystemDetails/export
+Stack Trace:
+#0 C:\wamp\www\its\lib\Cake\Error\ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\wamp\www\its...', 331)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\wamp\www\its...', 331, Array)
+#2 C:\wamp\www\its\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\wamp\www\its...', 331, Array)
+#3 C:\wamp\www\its\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-01 06:15:55 Error: Fatal Error (1): Call to a member function getActiveSheet() on a non-object in [C:\wamp\www\its\app\Controller\SystemDetailsController.php, line 332]
+2014-07-01 06:15:55 Error: [FatalErrorException] Call to a member function getActiveSheet() on a non-object
+Request URL: /its/SystemDetails/export
+Stack Trace:
+#0 C:\wamp\www\its\lib\Cake\Error\ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\wamp\www\its...', 332)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\wamp\www\its...', 332, Array)
+#2 C:\wamp\www\its\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\wamp\www\its...', 332, Array)
+#3 C:\wamp\www\its\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-01 06:27:38 Error: Fatal Error (1): Call to undefined method PHPExcel_Style_Fill::getColor() in [C:\wamp\www\its\app\Controller\SystemDetailsController.php, line 340]
+2014-07-01 06:27:38 Error: [FatalErrorException] Call to undefined method PHPExcel_Style_Fill::getColor()
+Request URL: /its/SystemDetails/export
+Stack Trace:
+#0 C:\wamp\www\its\lib\Cake\Error\ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\wamp\www\its...', 340)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\wamp\www\its...', 340, Array)
+#2 C:\wamp\www\its\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\wamp\www\its...', 340, Array)
+#3 C:\wamp\www\its\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-01 06:29:08 Error: Fatal Error (1): Call to a member function getIsSupervisor() on a non-object in [C:\wamp\www\its\app\Vendor\PHPExcel\Style\Fill.php, line 263]
+2014-07-01 06:29:08 Error: [FatalErrorException] Call to a member function getIsSupervisor() on a non-object
+Request URL: /its/SystemDetails/export
+Stack Trace:
+#0 C:\wamp\www\its\lib\Cake\Error\ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\wamp\www\its...', 263)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\wamp\www\its...', 263, Array)
+#2 C:\wamp\www\its\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\wamp\www\its...', 263, Array)
+#3 C:\wamp\www\its\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-01 06:33:58 Error: Fatal Error (1): Call to a member function addTableRow() on a non-object in [C:\wamp\www\its\app\Controller\SystemDetailsController.php, line 361]
+2014-07-01 06:33:58 Error: [FatalErrorException] Call to a member function addTableRow() on a non-object
+Request URL: /its/SystemDetails/export
+Stack Trace:
+#0 C:\wamp\www\its\lib\Cake\Error\ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\wamp\www\its...', 361)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\wamp\www\its...', 361, Array)
+#2 C:\wamp\www\its\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\wamp\www\its...', 361, Array)
+#3 C:\wamp\www\its\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-01 06:39:58 Error: Fatal Error (1): Call to undefined method PHPExcel_Worksheet::addTableHeader() in [C:\wamp\www\its\app\Controller\SystemDetailsController.php, line 384]
+2014-07-01 06:39:58 Error: [FatalErrorException] Call to undefined method PHPExcel_Worksheet::addTableHeader()
+Request URL: /its/SystemDetails/export
+Stack Trace:
+#0 C:\wamp\www\its\lib\Cake\Error\ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\wamp\www\its...', 384)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\wamp\www\its...', 384, Array)
+#2 C:\wamp\www\its\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\wamp\www\its...', 384, Array)
+#3 C:\wamp\www\its\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-01 07:00:15 Error: Fatal Error (1): Call to undefined method PHPExcel_Worksheet::setRow() in [C:\wamp\www\its\app\Controller\SystemDetailsController.php, line 385]
+2014-07-01 07:00:15 Error: [FatalErrorException] Call to undefined method PHPExcel_Worksheet::setRow()
+Request URL: /its/SystemDetails/export
+Stack Trace:
+#0 C:\wamp\www\its\lib\Cake\Error\ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\wamp\www\its...', 385)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\wamp\www\its...', 385, Array)
+#2 C:\wamp\www\its\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\wamp\www\its...', 385, Array)
+#3 C:\wamp\www\its\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-01 07:22:44 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'recursive' in 'where clause'
+Request URL: /its/SystemDetails/export
+Stack Trace:
+#0 C:\wamp\www\its\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\wamp\www\its\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `SystemD...', Array)
+#2 C:\wamp\www\its\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT `SystemD...', Array, Array)
+#3 C:\wamp\www\its\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `SystemD...', false)
+#4 C:\wamp\www\its\lib\Cake\Model\Model.php(2905): DboSource->read(Object(SystemDetail), Array)
+#5 C:\wamp\www\its\lib\Cake\Model\Model.php(2877): Model->_readDataSource('all', Array)
+#6 C:\wamp\www\its\app\Controller\SystemDetailsController.php(398): Model->find('all', Array)
+#7 [internal function]: SystemDetailsController->export()
+#8 C:\wamp\www\its\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(SystemDetailsController), Array)
+#9 C:\wamp\www\its\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\www\its\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(SystemDetailsController), Object(CakeRequest))
+#11 C:\wamp\www\its\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-07-01 07:50:51 Error: Fatal Error (4): syntax error, unexpected ')' in [C:\wamp\www\its\app\Controller\SystemDetailsController.php, line 396]
+2014-07-01 07:50:51 Error: [FatalErrorException] syntax error, unexpected ')'
+Request URL: /its/SystemDetails/export
+Stack Trace:
+#0 C:\wamp\www\its\lib\Cake\Error\ErrorHandler.php(204): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\its...', 396)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\its...', 396, Array)
+#2 C:\wamp\www\its\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\its...', 396, Array)
+#3 C:\wamp\www\its\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-01 09:24:26 Error: [PHPExcel_Exception] Invalid cell coordinate 826
+Request URL: /its/SystemDetails/export
+Stack Trace:
+#0 C:\wamp\www\its\app\Vendor\PHPExcel\Style.php(236): PHPExcel_Cell::coordinateFromString('826')
+#1 C:\wamp\www\its\app\Vendor\PHPExcel\Style\Fill.php(165): PHPExcel_Style->applyFromArray(Array)
+#2 C:\wamp\www\its\app\Controller\SystemDetailsController.php(447): PHPExcel_Style_Fill->applyFromArray(Array)
+#3 [internal function]: SystemDetailsController->export()
+#4 C:\wamp\www\its\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(SystemDetailsController), Array)
+#5 C:\wamp\www\its\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#6 C:\wamp\www\its\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(SystemDetailsController), Object(CakeRequest))
+#7 C:\wamp\www\its\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-07-01 09:24:44 Error: [PHPExcel_Exception] Cell coordinate can not be zero-length string
+Request URL: /its/SystemDetails/export
+Stack Trace:
+#0 C:\wamp\www\its\app\Vendor\PHPExcel\Style.php(236): PHPExcel_Cell::coordinateFromString('')
+#1 C:\wamp\www\its\app\Vendor\PHPExcel\Style\Fill.php(165): PHPExcel_Style->applyFromArray(Array)
+#2 C:\wamp\www\its\app\Controller\SystemDetailsController.php(447): PHPExcel_Style_Fill->applyFromArray(Array)
+#3 [internal function]: SystemDetailsController->export()
+#4 C:\wamp\www\its\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(SystemDetailsController), Array)
+#5 C:\wamp\www\its\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#6 C:\wamp\www\its\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(SystemDetailsController), Object(CakeRequest))
+#7 C:\wamp\www\its\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-07-01 09:25:54 Error: [PHPExcel_Exception] Cell coordinate can not be zero-length string
+Request URL: /its/SystemDetails/export
+Stack Trace:
+#0 C:\wamp\www\its\app\Vendor\PHPExcel\Style.php(236): PHPExcel_Cell::coordinateFromString('')
+#1 C:\wamp\www\its\app\Vendor\PHPExcel\Style\Fill.php(165): PHPExcel_Style->applyFromArray(Array)
+#2 C:\wamp\www\its\app\Controller\SystemDetailsController.php(446): PHPExcel_Style_Fill->applyFromArray(Array)
+#3 [internal function]: SystemDetailsController->export()
+#4 C:\wamp\www\its\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(SystemDetailsController), Array)
+#5 C:\wamp\www\its\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#6 C:\wamp\www\its\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(SystemDetailsController), Object(CakeRequest))
+#7 C:\wamp\www\its\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-07-01 09:29:05 Error: Fatal Error (1): Call to undefined method PHPExcel_Worksheet::getRow() in [C:\wamp\www\its\app\Controller\SystemDetailsController.php, line 440]
+2014-07-01 09:29:05 Error: [FatalErrorException] Call to undefined method PHPExcel_Worksheet::getRow()
+Request URL: /its/SystemDetails/export
+Stack Trace:
+#0 C:\wamp\www\its\lib\Cake\Error\ErrorHandler.php(204): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\wamp\www\its...', 440)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\wamp\www\its...', 440, Array)
+#2 C:\wamp\www\its\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\wamp\www\its...', 440, Array)
+#3 C:\wamp\www\its\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-01 09:30:54 Error: [PHPExcel_Exception] Cell coordinate can not be zero-length string
+Request URL: /its/SystemDetails/export
+Stack Trace:
+#0 C:\wamp\www\its\app\Vendor\PHPExcel\Style.php(236): PHPExcel_Cell::coordinateFromString('')
+#1 C:\wamp\www\its\app\Vendor\PHPExcel\Style\Fill.php(165): PHPExcel_Style->applyFromArray(Array)
+#2 C:\wamp\www\its\app\Controller\SystemDetailsController.php(447): PHPExcel_Style_Fill->applyFromArray(Array)
+#3 [internal function]: SystemDetailsController->export()
+#4 C:\wamp\www\its\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(SystemDetailsController), Array)
+#5 C:\wamp\www\its\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#6 C:\wamp\www\its\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(SystemDetailsController), Object(CakeRequest))
+#7 C:\wamp\www\its\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-07-01 10:05:39 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'User.' in 'where clause'
+Request URL: /its/SystemDetails/export
+Stack Trace:
+#0 C:\wamp\www\its\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\wamp\www\its\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `User`.`...', Array)
+#2 C:\wamp\www\its\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT `User`.`...', Array, Array)
+#3 C:\wamp\www\its\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `User`.`...', false)
+#4 C:\wamp\www\its\lib\Cake\Model\Model.php(2905): DboSource->read(Object(User), Array)
+#5 C:\wamp\www\its\lib\Cake\Model\Model.php(2877): Model->_readDataSource('first', Array)
+#6 C:\wamp\www\its\app\Controller\SystemDetailsController.php(422): Model->find('first', Array)
+#7 [internal function]: SystemDetailsController->export()
+#8 C:\wamp\www\its\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(SystemDetailsController), Array)
+#9 C:\wamp\www\its\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\www\its\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(SystemDetailsController), Object(CakeRequest))
+#11 C:\wamp\www\its\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-07-01 11:06:28 Error: [MissingActionException] Action SystemDetailsController::SystemDetails() could not be found.
+Exception Attributes: array (
+  'controller' => 'SystemDetailsController',
+  'action' => 'SystemDetails',
+)
+Request URL: /its/SystemDetails/SystemDetails/filter/model:2/status:NW/location:4
+Stack Trace:
+#0 C:\wamp\www\its\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\its\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(SystemDetailsController), Object(CakeRequest))
+#2 C:\wamp\www\its\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-07-01 11:06:36 Error: [MissingActionException] Action SystemDetailsController::SystemDetails() could not be found.
+Exception Attributes: array (
+  'controller' => 'SystemDetailsController',
+  'action' => 'SystemDetails',
+)
+Request URL: /its/SystemDetails/SystemDetails/filter/model:2/status:NW/location:3
+Stack Trace:
+#0 C:\wamp\www\its\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\its\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(SystemDetailsController), Object(CakeRequest))
+#2 C:\wamp\www\its\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-07-01 11:06:40 Error: [MissingActionException] Action SystemDetailsController::SystemDetails() could not be found.
+Exception Attributes: array (
+  'controller' => 'SystemDetailsController',
+  'action' => 'SystemDetails',
+)
+Request URL: /its/SystemDetails/SystemDetails/filter/model:2/status:NW/location:1
+Stack Trace:
+#0 C:\wamp\www\its\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\its\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(SystemDetailsController), Object(CakeRequest))
+#2 C:\wamp\www\its\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-07-01 11:06:46 Error: [MissingActionException] Action SystemDetailsController::SystemDetails() could not be found.
+Exception Attributes: array (
+  'controller' => 'SystemDetailsController',
+  'action' => 'SystemDetails',
+)
+Request URL: /its/SystemDetails/SystemDetails/filter/model:2/location:1
+Stack Trace:
+#0 C:\wamp\www\its\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\its\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(SystemDetailsController), Object(CakeRequest))
+#2 C:\wamp\www\its\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-07-01 11:06:51 Error: [MissingActionException] Action SystemDetailsController::SystemDetails() could not be found.
+Exception Attributes: array (
+  'controller' => 'SystemDetailsController',
+  'action' => 'SystemDetails',
+)
+Request URL: /its/SystemDetails/SystemDetails/filter/model:1/status:U/location:2
+Stack Trace:
+#0 C:\wamp\www\its\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\its\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(SystemDetailsController), Object(CakeRequest))
+#2 C:\wamp\www\its\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-07-01 11:06:56 Error: [MissingActionException] Action SystemDetailsController::SystemDetails() could not be found.
+Exception Attributes: array (
+  'controller' => 'SystemDetailsController',
+  'action' => 'SystemDetails',
+)
+Request URL: /its/SystemDetails/SystemDetails/filter/model:1/location:1
+Stack Trace:
+#0 C:\wamp\www\its\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\its\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(SystemDetailsController), Object(CakeRequest))
+#2 C:\wamp\www\its\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-07-01 11:07:01 Error: [MissingActionException] Action SystemDetailsController::SystemDetails() could not be found.
+Exception Attributes: array (
+  'controller' => 'SystemDetailsController',
+  'action' => 'SystemDetails',
+)
+Request URL: /its/SystemDetails/SystemDetails/filter/model:3
+Stack Trace:
+#0 C:\wamp\www\its\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\its\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(SystemDetailsController), Object(CakeRequest))
+#2 C:\wamp\www\its\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-07-02 04:22:02 Error: [MissingBehaviorException] Behavior class DataCaseBehavior could not be found.
+Exception Attributes: array (
+  'class' => 'DataCaseBehavior',
+  'plugin' => false,
+)
+Request URL: /its/SystemDetails/add
+Stack Trace:
+#0 C:\wamp\www\its\lib\Cake\Model\BehaviorCollection.php(66): BehaviorCollection->load('DataCase', Array)
+#1 C:\wamp\www\its\lib\Cake\Model\Model.php(747): BehaviorCollection->init('SystemDetail', Array)
+#2 [internal function]: Model->__construct(Array)
+#3 C:\wamp\www\its\lib\Cake\Utility\ClassRegistry.php(169): ReflectionClass->newInstance(Array)
+#4 C:\wamp\www\its\lib\Cake\Controller\Controller.php(738): ClassRegistry::init(Array)
+#5 C:\wamp\www\its\lib\Cake\Controller\Controller.php(367): Controller->loadModel('SystemDetail')
+#6 C:\wamp\www\its\lib\Cake\Controller\Controller.php(405): Controller->__isset('SystemDetail')
+#7 C:\wamp\www\its\app\Controller\SystemDetailsController.php(65): Controller->__get('SystemDetail')
+#8 [internal function]: SystemDetailsController->add()
+#9 C:\wamp\www\its\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(SystemDetailsController), Array)
+#10 C:\wamp\www\its\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 C:\wamp\www\its\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(SystemDetailsController), Object(CakeRequest))
+#12 C:\wamp\www\its\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-07-02 05:39:49 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\wamp\www\its\app\Controller\SystemDetailsController.php, line 35]
+Trace:
+SystemDetailsController::index() - APP\Controller\SystemDetailsController.php, line 35
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-07-02 05:39:49 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\wamp\www\its\app\Controller\SystemDetailsController.php, line 35]
+Trace:
+SystemDetailsController::index() - APP\Controller\SystemDetailsController.php, line 35
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-07-02 05:39:49 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\wamp\www\its\app\Controller\SystemDetailsController.php, line 35]
+Trace:
+SystemDetailsController::index() - APP\Controller\SystemDetailsController.php, line 35
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-07-02 05:39:49 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\wamp\www\its\app\Controller\SystemDetailsController.php, line 35]
+Trace:
+SystemDetailsController::index() - APP\Controller\SystemDetailsController.php, line 35
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-07-02 06:31:41 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'lolcation_id' in 'where clause'
+Request URL: /its/
+Stack Trace:
+#0 C:\wamp\www\its\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\wamp\www\its\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT COUNT(*)...', Array)
+#2 C:\wamp\www\its\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT COUNT(*)...', Array, Array)
+#3 C:\wamp\www\its\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT COUNT(*)...', false)
+#4 C:\wamp\www\its\lib\Cake\Model\Model.php(2905): DboSource->read(Object(SystemDetail), Array)
+#5 C:\wamp\www\its\lib\Cake\Model\Model.php(2877): Model->_readDataSource('count', Array)
+#6 C:\wamp\www\its\app\Controller\SystemDetailsController.php(270): Model->find('count', Array)
+#7 [internal function]: SystemDetailsController->home('home')
+#8 C:\wamp\www\its\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(SystemDetailsController), Array)
+#9 C:\wamp\www\its\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\www\its\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(SystemDetailsController), Object(CakeRequest))
+#11 C:\wamp\www\its\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-07-02 07:35:56 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'User.departement' in 'field list'
+Request URL: /its/Users/edit/198
+Stack Trace:
+#0 C:\wamp\www\its\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\wamp\www\its\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `User`.`...', Array)
+#2 C:\wamp\www\its\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT `User`.`...', Array, Array)
+#3 C:\wamp\www\its\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `User`.`...', false)
+#4 C:\wamp\www\its\lib\Cake\Model\Model.php(2905): DboSource->read(Object(User), Array)
+#5 C:\wamp\www\its\lib\Cake\Model\Model.php(2877): Model->_readDataSource('all', Array)
+#6 C:\wamp\www\its\app\Controller\UsersController.php(81): Model->find('all', Array)
+#7 [internal function]: UsersController->edit('198')
+#8 C:\wamp\www\its\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#9 C:\wamp\www\its\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\www\its\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#11 C:\wamp\www\its\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-07-02 08:44:08 Error: [MissingControllerException] Controller class UserController could not be found.
+Exception Attributes: array (
+  'class' => 'UserController',
+  'plugin' => NULL,
+)
+Request URL: /its/User/search
+Stack Trace:
+#0 C:\wamp\www\its\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-02 11:00:09 Warning: Warning (2): PDO::__construct() [<a href='pdo.--construct'>pdo.--construct</a>]: [2002] No connection could be made because the target machine actively refused it.
+ (trying to connect via tcp://localhost:3306) in [C:\wamp\www\Inventory\lib\Cake\Model\Datasource\Database\Mysql.php, line 183]
+Trace:
+PDO::__construct() - [internal], line ??
+Mysql::connect() - CORE\Cake\Model\Datasource\Database\Mysql.php, line 183
+DboSource::__construct() - CORE\Cake\Model\Datasource\DboSource.php, line 260
+ConnectionManager::getDataSource() - CORE\Cake\Model\ConnectionManager.php, line 105
+Model::setDataSource() - CORE\Cake\Model\Model.php, line 3482
+Model::setSource() - CORE\Cake\Model\Model.php, line 1128
+Model::getDataSource() - CORE\Cake\Model\Model.php, line 3504
+Model::_readDataSource() - CORE\Cake\Model\Model.php, line 2905
+Model::find() - CORE\Cake\Model\Model.php, line 2877
+SystemDetailsController::home() - APP\Controller\SystemDetailsController.php, line 231
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-07-02 11:00:09 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+',
+  'enabled' => true,
+)
+Request URL: /Inventory/
+Stack Trace:
+#0 C:\wamp\www\Inventory\lib\Cake\Model\Datasource\DboSource.php(260): Mysql->connect()
+#1 C:\wamp\www\Inventory\lib\Cake\Model\ConnectionManager.php(105): DboSource->__construct(Array)
+#2 C:\wamp\www\Inventory\lib\Cake\Model\Model.php(3482): ConnectionManager::getDataSource('default')
+#3 C:\wamp\www\Inventory\lib\Cake\Model\Model.php(1128): Model->setDataSource('default')
+#4 C:\wamp\www\Inventory\lib\Cake\Model\Model.php(3504): Model->setSource('system_details')
+#5 C:\wamp\www\Inventory\lib\Cake\Model\Model.php(2905): Model->getDataSource()
+#6 C:\wamp\www\Inventory\lib\Cake\Model\Model.php(2877): Model->_readDataSource('all', Array)
+#7 C:\wamp\www\Inventory\app\Controller\SystemDetailsController.php(231): Model->find('all', Array)
+#8 [internal function]: SystemDetailsController->home('home')
+#9 C:\wamp\www\Inventory\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(SystemDetailsController), Array)
+#10 C:\wamp\www\Inventory\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 C:\wamp\www\Inventory\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(SystemDetailsController), Object(CakeRequest))
+#12 C:\wamp\www\Inventory\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-07-02 11:00:14 Warning: Warning (2): PDO::__construct() [<a href='pdo.--construct'>pdo.--construct</a>]: [2002] No connection could be made because the target machine actively refused it.
+ (trying to connect via tcp://localhost:3306) in [C:\wamp\www\Inventory\lib\Cake\Model\Datasource\Database\Mysql.php, line 183]
+Trace:
+PDO::__construct() - [internal], line ??
+Mysql::connect() - CORE\Cake\Model\Datasource\Database\Mysql.php, line 183
+DboSource::__construct() - CORE\Cake\Model\Datasource\DboSource.php, line 260
+ConnectionManager::getDataSource() - CORE\Cake\Model\ConnectionManager.php, line 105
+Model::setDataSource() - CORE\Cake\Model\Model.php, line 3482
+Model::setSource() - CORE\Cake\Model\Model.php, line 1128
+Model::getDataSource() - CORE\Cake\Model\Model.php, line 3504
+Model::schema() - CORE\Cake\Model\Model.php, line 1357
+FormHelper::_introspectModel() - CORE\Cake\View\Helper\FormHelper.php, line 215
+FormHelper::create() - CORE\Cake\View\Helper\FormHelper.php, line 468
+include - APP\View\Users\login.ctp, line 4
+View::_evaluate() - CORE\Cake\View\View.php, line 948
+View::_render() - CORE\Cake\View\View.php, line 910
+View::render() - CORE\Cake\View\View.php, line 471
+Controller::render() - CORE\Cake\Controller\Controller.php, line 954
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 198
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-07-02 11:00:14 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+',
+  'enabled' => true,
+)
+Request URL: /Inventory/login
+Stack Trace:
+#0 C:\wamp\www\Inventory\lib\Cake\Model\Datasource\DboSource.php(260): Mysql->connect()
+#1 C:\wamp\www\Inventory\lib\Cake\Model\ConnectionManager.php(105): DboSource->__construct(Array)
+#2 C:\wamp\www\Inventory\lib\Cake\Model\Model.php(3482): ConnectionManager::getDataSource('default')
+#3 C:\wamp\www\Inventory\lib\Cake\Model\Model.php(1128): Model->setDataSource('default')
+#4 C:\wamp\www\Inventory\lib\Cake\Model\Model.php(3504): Model->setSource('users')
+#5 C:\wamp\www\Inventory\lib\Cake\Model\Model.php(1357): Model->getDataSource()
+#6 C:\wamp\www\Inventory\lib\Cake\View\Helper\FormHelper.php(215): Model->schema()
+#7 C:\wamp\www\Inventory\lib\Cake\View\Helper\FormHelper.php(468): FormHelper->_introspectModel('User', 'fields')
+#8 C:\wamp\www\Inventory\app\View\Users\login.ctp(4): FormHelper->create('User')
+#9 C:\wamp\www\Inventory\lib\Cake\View\View.php(948): include('C:\wamp\www\Inv...')
+#10 C:\wamp\www\Inventory\lib\Cake\View\View.php(910): View->_evaluate('C:\wamp\www\Inv...', Array)
+#11 C:\wamp\www\Inventory\lib\Cake\View\View.php(471): View->_render('C:\wamp\www\Inv...')
+#12 C:\wamp\www\Inventory\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#13 C:\wamp\www\Inventory\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#14 C:\wamp\www\Inventory\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#15 C:\wamp\www\Inventory\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2014-07-02 16:36:01 Error: [MissingControllerException] Controller class InventoryController could not be found.
+Exception Attributes: array (
+  'class' => 'InventoryController',
+  'plugin' => NULL,
+)
+Request URL: /Inventory/inventory/
+Stack Trace:
+#0 C:\wamp\www\Inventory\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-04 07:41:56 Error: [MissingControllerException] Controller class InventoryController could not be found.
+Exception Attributes: array (
+  'class' => 'InventoryController',
+  'plugin' => NULL,
+)
+Request URL: /Inventory/inventory/
+Stack Trace:
+#0 C:\wamp\www\Inventory\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-04 07:42:02 Error: [MissingControllerException] Controller class InventoryController could not be found.
+Exception Attributes: array (
+  'class' => 'InventoryController',
+  'plugin' => NULL,
+)
+Request URL: /Inventory/inventory/
+Stack Trace:
+#0 C:\wamp\www\Inventory\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-04 07:48:27 Warning: Warning (2): include(C:\wamp\www\Inventory\app\Controller\SystemDetailsController.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in [C:\wamp\www\Inventory\lib\Cake\Core\App.php, line 545]
+Trace:
+App::load() - CORE\Cake\Core\App.php, line 545
+App::load() - CORE\Cake\Core\App.php, line 545
+spl_autoload_call - [internal], line ??
+class_exists - [internal], line ??
+Dispatcher::_loadController() - CORE\Cake\Routing\Dispatcher.php, line 264
+Dispatcher::_getController() - CORE\Cake\Routing\Dispatcher.php, line 233
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 156
+[main] - APP\webroot\index.php, line 108
+
+2014-07-04 07:48:27 Warning: Warning (2): include() [<a href='http://php.net/function.include'>function.include</a>]: Failed opening 'C:\wamp\www\Inventory\app\Controller\SystemDetailsController.php' for inclusion (include_path='C:\wamp\www\Inventory\lib;.;C:\php\pear') in [C:\wamp\www\Inventory\lib\Cake\Core\App.php, line 545]
+Trace:
+App::load() - CORE\Cake\Core\App.php, line 545
+App::load() - CORE\Cake\Core\App.php, line 545
+spl_autoload_call - [internal], line ??
+class_exists - [internal], line ??
+Dispatcher::_loadController() - CORE\Cake\Routing\Dispatcher.php, line 264
+Dispatcher::_getController() - CORE\Cake\Routing\Dispatcher.php, line 233
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 156
+[main] - APP\webroot\index.php, line 108
+
+2014-07-04 07:48:27 Error: [MissingControllerException] Controller class SystemDetailsController could not be found.
+Exception Attributes: array (
+  'class' => 'SystemDetailsController',
+  'plugin' => NULL,
+)
+Request URL: /Inventory/SystemDetails/export
+Stack Trace:
+#0 C:\wamp\www\Inventory\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-04 07:48:30 Warning: Warning (2): include(C:\wamp\www\Inventory\app\Controller\SystemDetailsController.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in [C:\wamp\www\Inventory\lib\Cake\Core\App.php, line 545]
+Trace:
+App::load() - CORE\Cake\Core\App.php, line 545
+App::load() - CORE\Cake\Core\App.php, line 545
+spl_autoload_call - [internal], line ??
+class_exists - [internal], line ??
+Dispatcher::_loadController() - CORE\Cake\Routing\Dispatcher.php, line 264
+Dispatcher::_getController() - CORE\Cake\Routing\Dispatcher.php, line 233
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 156
+[main] - APP\webroot\index.php, line 108
+
+2014-07-04 07:48:30 Warning: Warning (2): include() [<a href='http://php.net/function.include'>function.include</a>]: Failed opening 'C:\wamp\www\Inventory\app\Controller\SystemDetailsController.php' for inclusion (include_path='C:\wamp\www\Inventory\lib;.;C:\php\pear') in [C:\wamp\www\Inventory\lib\Cake\Core\App.php, line 545]
+Trace:
+App::load() - CORE\Cake\Core\App.php, line 545
+App::load() - CORE\Cake\Core\App.php, line 545
+spl_autoload_call - [internal], line ??
+class_exists - [internal], line ??
+Dispatcher::_loadController() - CORE\Cake\Routing\Dispatcher.php, line 264
+Dispatcher::_getController() - CORE\Cake\Routing\Dispatcher.php, line 233
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 156
+[main] - APP\webroot\index.php, line 108
+
+2014-07-04 07:48:30 Error: [MissingControllerException] Controller class SystemDetailsController could not be found.
+Exception Attributes: array (
+  'class' => 'SystemDetailsController',
+  'plugin' => NULL,
+)
+Request URL: /Inventory/SystemDetails/export
+Stack Trace:
+#0 C:\wamp\www\Inventory\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-04 15:53:32 Error: [MissingControllerException] Controller class InventoryController could not be found.
+Exception Attributes: array (
+  'class' => 'InventoryController',
+  'plugin' => NULL,
+)
+Request URL: /Inventory/inventory/
+Stack Trace:
+#0 C:\wamp\www\Inventory\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-04 18:22:43 Error: [MissingControllerException] Controller class InventoryController could not be found.
+Exception Attributes: array (
+  'class' => 'InventoryController',
+  'plugin' => NULL,
+)
+Request URL: /Inventory/inventory/
+Stack Trace:
+#0 C:\wamp\www\Inventory\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-05 06:52:45 Error: Fatal Error (4): syntax error, unexpected '=' in [C:\wamp\www\Inventory\app\View\SystemDetails\home.ctp, line 22]
+2014-07-05 06:52:45 Error: [InternalErrorException] Internal Server Error
+Request URL: /Inventory/
+Stack Trace:
+#0 C:\wamp\www\Inventory\lib\Cake\Error\ErrorHandler.php(204): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\Inv...', 22)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\Inv...', 22, Array)
+#2 C:\wamp\www\Inventory\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\Inv...', 22, Array)
+#3 C:\wamp\www\Inventory\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-05 06:53:07 Error: Fatal Error (4): syntax error, unexpected T_STRING, expecting ',' or ';' in [C:\wamp\www\Inventory\app\View\SystemDetails\home.ctp, line 22]
+2014-07-05 06:53:07 Error: [InternalErrorException] Internal Server Error
+Request URL: /Inventory/
+Stack Trace:
+#0 C:\wamp\www\Inventory\lib\Cake\Error\ErrorHandler.php(204): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\Inv...', 22)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\Inv...', 22, Array)
+#2 C:\wamp\www\Inventory\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\Inv...', 22, Array)
+#3 C:\wamp\www\Inventory\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-05 06:53:10 Error: Fatal Error (4): syntax error, unexpected T_STRING, expecting ',' or ';' in [C:\wamp\www\Inventory\app\View\SystemDetails\home.ctp, line 22]
+2014-07-05 06:53:10 Error: [InternalErrorException] Internal Server Error
+Request URL: /Inventory/
+Stack Trace:
+#0 C:\wamp\www\Inventory\lib\Cake\Error\ErrorHandler.php(204): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\Inv...', 22)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\Inv...', 22, Array)
+#2 C:\wamp\www\Inventory\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\Inv...', 22, Array)
+#3 C:\wamp\www\Inventory\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-05 06:53:12 Error: Fatal Error (4): syntax error, unexpected T_STRING, expecting ',' or ';' in [C:\wamp\www\Inventory\app\View\SystemDetails\home.ctp, line 22]
+2014-07-05 06:53:12 Error: [InternalErrorException] Internal Server Error
+Request URL: /Inventory/
+Stack Trace:
+#0 C:\wamp\www\Inventory\lib\Cake\Error\ErrorHandler.php(204): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\Inv...', 22)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\Inv...', 22, Array)
+#2 C:\wamp\www\Inventory\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\Inv...', 22, Array)
+#3 C:\wamp\www\Inventory\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-05 07:04:31 Error: Fatal Error (4): syntax error, unexpected '?' in [C:\wamp\www\Inventory\app\View\Layouts\default.ctp, line 56]
+2014-07-05 07:04:31 Error: [InternalErrorException] Internal Server Error
+Request URL: /Inventory/
+Stack Trace:
+#0 C:\wamp\www\Inventory\lib\Cake\Error\ErrorHandler.php(204): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\Inv...', 56)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\Inv...', 56, Array)
+#2 C:\wamp\www\Inventory\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\Inv...', 56, Array)
+#3 C:\wamp\www\Inventory\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-05 07:04:34 Error: Fatal Error (4): syntax error, unexpected '?' in [C:\wamp\www\Inventory\app\View\Layouts\default.ctp, line 56]
+2014-07-05 07:04:34 Error: [InternalErrorException] Internal Server Error
+Request URL: /Inventory/
+Stack Trace:
+#0 C:\wamp\www\Inventory\lib\Cake\Error\ErrorHandler.php(204): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\Inv...', 56)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\Inv...', 56, Array)
+#2 C:\wamp\www\Inventory\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\Inv...', 56, Array)
+#3 C:\wamp\www\Inventory\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-05 07:04:36 Error: Fatal Error (4): syntax error, unexpected '?' in [C:\wamp\www\Inventory\app\View\Layouts\default.ctp, line 56]
+2014-07-05 07:04:36 Error: [InternalErrorException] Internal Server Error
+Request URL: /Inventory/
+Stack Trace:
+#0 C:\wamp\www\Inventory\lib\Cake\Error\ErrorHandler.php(204): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\Inv...', 56)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\Inv...', 56, Array)
+#2 C:\wamp\www\Inventory\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\Inv...', 56, Array)
+#3 C:\wamp\www\Inventory\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-05 07:04:47 Error: Fatal Error (4): syntax error, unexpected '?' in [C:\wamp\www\Inventory\app\View\Layouts\default.ctp, line 56]
+2014-07-05 07:04:47 Error: [InternalErrorException] Internal Server Error
+Request URL: /Inventory/
+Stack Trace:
+#0 C:\wamp\www\Inventory\lib\Cake\Error\ErrorHandler.php(204): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\Inv...', 56)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\Inv...', 56, Array)
+#2 C:\wamp\www\Inventory\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\Inv...', 56, Array)
+#3 C:\wamp\www\Inventory\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-05 07:04:49 Error: Fatal Error (4): syntax error, unexpected '?' in [C:\wamp\www\Inventory\app\View\Layouts\default.ctp, line 56]
+2014-07-05 07:04:49 Error: [InternalErrorException] Internal Server Error
+Request URL: /Inventory/
+Stack Trace:
+#0 C:\wamp\www\Inventory\lib\Cake\Error\ErrorHandler.php(204): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\Inv...', 56)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\Inv...', 56, Array)
+#2 C:\wamp\www\Inventory\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\Inv...', 56, Array)
+#3 C:\wamp\www\Inventory\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-05 07:04:54 Error: Fatal Error (4): syntax error, unexpected '?' in [C:\wamp\www\Inventory\app\View\Layouts\default.ctp, line 56]
+2014-07-05 07:04:54 Error: [InternalErrorException] Internal Server Error
+Request URL: /Inventory/
+Stack Trace:
+#0 C:\wamp\www\Inventory\lib\Cake\Error\ErrorHandler.php(204): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\Inv...', 56)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\Inv...', 56, Array)
+#2 C:\wamp\www\Inventory\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\Inv...', 56, Array)
+#3 C:\wamp\www\Inventory\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-05 07:05:34 Error: Fatal Error (4): syntax error, unexpected ')' in [C:\wamp\www\Inventory\app\View\Layouts\default.ctp, line 56]
+2014-07-05 07:05:34 Error: [InternalErrorException] Internal Server Error
+Request URL: /Inventory/
+Stack Trace:
+#0 C:\wamp\www\Inventory\lib\Cake\Error\ErrorHandler.php(204): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\Inv...', 56)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\Inv...', 56, Array)
+#2 C:\wamp\www\Inventory\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\Inv...', 56, Array)
+#3 C:\wamp\www\Inventory\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-05 07:05:40 Error: Fatal Error (4): syntax error, unexpected ')' in [C:\wamp\www\Inventory\app\View\Layouts\default.ctp, line 56]
+2014-07-05 07:05:40 Error: [InternalErrorException] Internal Server Error
+Request URL: /Inventory/
+Stack Trace:
+#0 C:\wamp\www\Inventory\lib\Cake\Error\ErrorHandler.php(204): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\Inv...', 56)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\Inv...', 56, Array)
+#2 C:\wamp\www\Inventory\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\Inv...', 56, Array)
+#3 C:\wamp\www\Inventory\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-05 07:06:18 Error: Fatal Error (4): syntax error, unexpected '=', expecting ')' in [C:\wamp\www\Inventory\app\View\Layouts\default.ctp, line 56]
+2014-07-05 07:06:18 Error: [InternalErrorException] Internal Server Error
+Request URL: /Inventory/
+Stack Trace:
+#0 C:\wamp\www\Inventory\lib\Cake\Error\ErrorHandler.php(204): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\Inv...', 56)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\Inv...', 56, Array)
+#2 C:\wamp\www\Inventory\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\Inv...', 56, Array)
+#3 C:\wamp\www\Inventory\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-05 07:08:48 Error: Fatal Error (4): syntax error, unexpected ')' in [C:\wamp\www\Inventory\app\View\Layouts\default.ctp, line 56]
+2014-07-05 07:08:48 Error: [InternalErrorException] Internal Server Error
+Request URL: /Inventory/
+Stack Trace:
+#0 C:\wamp\www\Inventory\lib\Cake\Error\ErrorHandler.php(204): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\Inv...', 56)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\Inv...', 56, Array)
+#2 C:\wamp\www\Inventory\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\Inv...', 56, Array)
+#3 C:\wamp\www\Inventory\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-05 07:08:51 Error: Fatal Error (4): syntax error, unexpected ')' in [C:\wamp\www\Inventory\app\View\Layouts\default.ctp, line 56]
+2014-07-05 07:08:51 Error: [InternalErrorException] Internal Server Error
+Request URL: /Inventory/
+Stack Trace:
+#0 C:\wamp\www\Inventory\lib\Cake\Error\ErrorHandler.php(204): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\Inv...', 56)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\Inv...', 56, Array)
+#2 C:\wamp\www\Inventory\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\Inv...', 56, Array)
+#3 C:\wamp\www\Inventory\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-05 07:09:01 Error: Fatal Error (4): syntax error, unexpected T_ARRAY, expecting ')' in [C:\wamp\www\Inventory\app\View\Layouts\default.ctp, line 56]
+2014-07-05 07:09:01 Error: [InternalErrorException] Internal Server Error
+Request URL: /Inventory/
+Stack Trace:
+#0 C:\wamp\www\Inventory\lib\Cake\Error\ErrorHandler.php(204): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\Inv...', 56)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\Inv...', 56, Array)
+#2 C:\wamp\www\Inventory\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\Inv...', 56, Array)
+#3 C:\wamp\www\Inventory\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-05 07:09:02 Error: Fatal Error (4): syntax error, unexpected T_ARRAY, expecting ')' in [C:\wamp\www\Inventory\app\View\Layouts\default.ctp, line 56]
+2014-07-05 07:09:02 Error: [InternalErrorException] Internal Server Error
+Request URL: /Inventory/
+Stack Trace:
+#0 C:\wamp\www\Inventory\lib\Cake\Error\ErrorHandler.php(204): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\Inv...', 56)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\Inv...', 56, Array)
+#2 C:\wamp\www\Inventory\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\Inv...', 56, Array)
+#3 C:\wamp\www\Inventory\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-05 07:09:03 Error: Fatal Error (4): syntax error, unexpected T_ARRAY, expecting ')' in [C:\wamp\www\Inventory\app\View\Layouts\default.ctp, line 56]
+2014-07-05 07:09:03 Error: [InternalErrorException] Internal Server Error
+Request URL: /Inventory/
+Stack Trace:
+#0 C:\wamp\www\Inventory\lib\Cake\Error\ErrorHandler.php(204): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\Inv...', 56)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\Inv...', 56, Array)
+#2 C:\wamp\www\Inventory\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\Inv...', 56, Array)
+#3 C:\wamp\www\Inventory\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-05 07:13:39 Error: Fatal Error (4): syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ')' in [C:\wamp\www\Inventory\app\View\Layouts\default.ctp, line 56]
+2014-07-05 07:13:39 Error: [InternalErrorException] Internal Server Error
+Request URL: /Inventory/
+Stack Trace:
+#0 C:\wamp\www\Inventory\lib\Cake\Error\ErrorHandler.php(204): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\Inv...', 56)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\Inv...', 56, Array)
+#2 C:\wamp\www\Inventory\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\Inv...', 56, Array)
+#3 C:\wamp\www\Inventory\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-05 08:13:33 Error: [MissingActionException] Action SystemDetailsController::SystemDetails() could not be found.
+Exception Attributes: array (
+  'controller' => 'SystemDetailsController',
+  'action' => 'SystemDetails',
+)
+Request URL: /Inventory/SystemDetails/SystemDetails/filter/status:U
+Stack Trace:
+#0 C:\wamp\www\Inventory\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\Inventory\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(SystemDetailsController), Object(CakeRequest))
+#2 C:\wamp\www\Inventory\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-07-05 08:13:40 Error: [MissingActionException] Action SystemDetailsController::SystemDetails() could not be found.
+Exception Attributes: array (
+  'controller' => 'SystemDetailsController',
+  'action' => 'SystemDetails',
+)
+Request URL: /Inventory/SystemDetails/SystemDetails/filter/status:NW
+Stack Trace:
+#0 C:\wamp\www\Inventory\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\Inventory\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(SystemDetailsController), Object(CakeRequest))
+#2 C:\wamp\www\Inventory\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-07-05 08:13:43 Error: [MissingActionException] Action SystemDetailsController::SystemDetails() could not be found.
+Exception Attributes: array (
+  'controller' => 'SystemDetailsController',
+  'action' => 'SystemDetails',
+)
+Request URL: /Inventory/SystemDetails/SystemDetails/filter/status:W
+Stack Trace:
+#0 C:\wamp\www\Inventory\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\Inventory\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(SystemDetailsController), Object(CakeRequest))
+#2 C:\wamp\www\Inventory\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-07-05 08:13:45 Error: [MissingActionException] Action SystemDetailsController::SystemDetails() could not be found.
+Exception Attributes: array (
+  'controller' => 'SystemDetailsController',
+  'action' => 'SystemDetails',
+)
+Request URL: /Inventory/SystemDetails/SystemDetails/filter/
+Stack Trace:
+#0 C:\wamp\www\Inventory\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\Inventory\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(SystemDetailsController), Object(CakeRequest))
+#2 C:\wamp\www\Inventory\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-07-05 08:13:48 Error: [MissingActionException] Action SystemDetailsController::SystemDetails() could not be found.
+Exception Attributes: array (
+  'controller' => 'SystemDetailsController',
+  'action' => 'SystemDetails',
+)
+Request URL: /Inventory/SystemDetails/SystemDetails/filter/location:4
+Stack Trace:
+#0 C:\wamp\www\Inventory\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\Inventory\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(SystemDetailsController), Object(CakeRequest))
+#2 C:\wamp\www\Inventory\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-07-05 08:13:50 Error: [MissingActionException] Action SystemDetailsController::SystemDetails() could not be found.
+Exception Attributes: array (
+  'controller' => 'SystemDetailsController',
+  'action' => 'SystemDetails',
+)
+Request URL: /Inventory/SystemDetails/SystemDetails/filter/location:3
+Stack Trace:
+#0 C:\wamp\www\Inventory\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\Inventory\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(SystemDetailsController), Object(CakeRequest))
+#2 C:\wamp\www\Inventory\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-07-05 08:13:53 Error: [MissingActionException] Action SystemDetailsController::SystemDetails() could not be found.
+Exception Attributes: array (
+  'controller' => 'SystemDetailsController',
+  'action' => 'SystemDetails',
+)
+Request URL: /Inventory/SystemDetails/SystemDetails/filter/location:2
+Stack Trace:
+#0 C:\wamp\www\Inventory\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\Inventory\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(SystemDetailsController), Object(CakeRequest))
+#2 C:\wamp\www\Inventory\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-07-05 08:13:55 Error: [MissingActionException] Action SystemDetailsController::SystemDetails() could not be found.
+Exception Attributes: array (
+  'controller' => 'SystemDetailsController',
+  'action' => 'SystemDetails',
+)
+Request URL: /Inventory/SystemDetails/SystemDetails/filter/location:1
+Stack Trace:
+#0 C:\wamp\www\Inventory\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\Inventory\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(SystemDetailsController), Object(CakeRequest))
+#2 C:\wamp\www\Inventory\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-07-05 08:13:59 Error: [MissingActionException] Action SystemDetailsController::SystemDetails() could not be found.
+Exception Attributes: array (
+  'controller' => 'SystemDetailsController',
+  'action' => 'SystemDetails',
+)
+Request URL: /Inventory/SystemDetails/SystemDetails/filter/model:5/status:NW/location:1
+Stack Trace:
+#0 C:\wamp\www\Inventory\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\Inventory\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(SystemDetailsController), Object(CakeRequest))
+#2 C:\wamp\www\Inventory\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-07-05 08:14:01 Error: [MissingActionException] Action SystemDetailsController::SystemDetails() could not be found.
+Exception Attributes: array (
+  'controller' => 'SystemDetailsController',
+  'action' => 'SystemDetails',
+)
+Request URL: /Inventory/SystemDetails/SystemDetails/filter/model:5
+Stack Trace:
+#0 C:\wamp\www\Inventory\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\Inventory\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(SystemDetailsController), Object(CakeRequest))
+#2 C:\wamp\www\Inventory\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-07-05 08:14:04 Error: [MissingActionException] Action SystemDetailsController::SystemDetails() could not be found.
+Exception Attributes: array (
+  'controller' => 'SystemDetailsController',
+  'action' => 'SystemDetails',
+)
+Request URL: /Inventory/SystemDetails/SystemDetails/filter/model:20
+Stack Trace:
+#0 C:\wamp\www\Inventory\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\Inventory\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(SystemDetailsController), Object(CakeRequest))
+#2 C:\wamp\www\Inventory\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-07-05 08:14:07 Error: [MissingActionException] Action SystemDetailsController::SystemDetails() could not be found.
+Exception Attributes: array (
+  'controller' => 'SystemDetailsController',
+  'action' => 'SystemDetails',
+)
+Request URL: /Inventory/SystemDetails/SystemDetails/filter/model:20/location:1
+Stack Trace:
+#0 C:\wamp\www\Inventory\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\Inventory\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(SystemDetailsController), Object(CakeRequest))
+#2 C:\wamp\www\Inventory\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-07-05 08:14:09 Error: [MissingActionException] Action SystemDetailsController::SystemDetails() could not be found.
+Exception Attributes: array (
+  'controller' => 'SystemDetailsController',
+  'action' => 'SystemDetails',
+)
+Request URL: /Inventory/SystemDetails/SystemDetails/filter/model:10
+Stack Trace:
+#0 C:\wamp\www\Inventory\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\Inventory\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(SystemDetailsController), Object(CakeRequest))
+#2 C:\wamp\www\Inventory\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-07-05 08:14:12 Error: [MissingActionException] Action SystemDetailsController::SystemDetails() could not be found.
+Exception Attributes: array (
+  'controller' => 'SystemDetailsController',
+  'action' => 'SystemDetails',
+)
+Request URL: /Inventory/SystemDetails/SystemDetails/filter/model:113
+Stack Trace:
+#0 C:\wamp\www\Inventory\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\Inventory\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(SystemDetailsController), Object(CakeRequest))
+#2 C:\wamp\www\Inventory\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-07-05 08:14:33 Error: [MissingActionException] Action SystemDetailsController::SystemDetails() could not be found.
+Exception Attributes: array (
+  'controller' => 'SystemDetailsController',
+  'action' => 'SystemDetails',
+)
+Request URL: /Inventory/SystemDetails/SystemDetails/filter/model:113
+Stack Trace:
+#0 C:\wamp\www\Inventory\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\Inventory\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(SystemDetailsController), Object(CakeRequest))
+#2 C:\wamp\www\Inventory\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-07-05 08:14:39 Error: [MissingActionException] Action SystemDetailsController::SystemDetails() could not be found.
+Exception Attributes: array (
+  'controller' => 'SystemDetailsController',
+  'action' => 'SystemDetails',
+)
+Request URL: /Inventory/SystemDetails/SystemDetails/filter/model:57
+Stack Trace:
+#0 C:\wamp\www\Inventory\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\Inventory\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(SystemDetailsController), Object(CakeRequest))
+#2 C:\wamp\www\Inventory\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-07-05 08:15:02 Error: [MissingActionException] Action SystemDetailsController::SystemDetails() could not be found.
+Exception Attributes: array (
+  'controller' => 'SystemDetailsController',
+  'action' => 'SystemDetails',
+)
+Request URL: /Inventory/SystemDetails/SystemDetails/filter/model:5/location:4
+Stack Trace:
+#0 C:\wamp\www\Inventory\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\Inventory\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(SystemDetailsController), Object(CakeRequest))
+#2 C:\wamp\www\Inventory\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-07-05 08:15:13 Error: [MissingActionException] Action SystemDetailsController::SystemDetails() could not be found.
+Exception Attributes: array (
+  'controller' => 'SystemDetailsController',
+  'action' => 'SystemDetails',
+)
+Request URL: /Inventory/SystemDetails/SystemDetails/filter/model:113/location:2
+Stack Trace:
+#0 C:\wamp\www\Inventory\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\Inventory\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(SystemDetailsController), Object(CakeRequest))
+#2 C:\wamp\www\Inventory\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-07-05 08:15:45 Warning: Warning (2): PDO::__construct() [<a href='pdo.--construct'>pdo.--construct</a>]: [2002] No connection could be made because the target machine actively refused it.
+ (trying to connect via tcp://localhost:3306) in [C:\wamp\www\Inventory\lib\Cake\Model\Datasource\Database\Mysql.php, line 183]
+Trace:
+PDO::__construct() - [internal], line ??
+Mysql::connect() - CORE\Cake\Model\Datasource\Database\Mysql.php, line 183
+DboSource::__construct() - CORE\Cake\Model\Datasource\DboSource.php, line 260
+ConnectionManager::getDataSource() - CORE\Cake\Model\ConnectionManager.php, line 105
+Model::setDataSource() - CORE\Cake\Model\Model.php, line 3482
+Model::setSource() - CORE\Cake\Model\Model.php, line 1128
+Model::getDataSource() - CORE\Cake\Model\Model.php, line 3504
+Model::_readDataSource() - CORE\Cake\Model\Model.php, line 2905
+Model::find() - CORE\Cake\Model\Model.php, line 2877
+SystemDetailsController::home() - APP\Controller\SystemDetailsController.php, line 231
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-07-05 08:15:45 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+',
+  'enabled' => true,
+)
+Request URL: /Inventory/SystemDetails/home
+Stack Trace:
+#0 C:\wamp\www\Inventory\lib\Cake\Model\Datasource\DboSource.php(260): Mysql->connect()
+#1 C:\wamp\www\Inventory\lib\Cake\Model\ConnectionManager.php(105): DboSource->__construct(Array)
+#2 C:\wamp\www\Inventory\lib\Cake\Model\Model.php(3482): ConnectionManager::getDataSource('default')
+#3 C:\wamp\www\Inventory\lib\Cake\Model\Model.php(1128): Model->setDataSource('default')
+#4 C:\wamp\www\Inventory\lib\Cake\Model\Model.php(3504): Model->setSource('system_details')
+#5 C:\wamp\www\Inventory\lib\Cake\Model\Model.php(2905): Model->getDataSource()
+#6 C:\wamp\www\Inventory\lib\Cake\Model\Model.php(2877): Model->_readDataSource('all', Array)
+#7 C:\wamp\www\Inventory\app\Controller\SystemDetailsController.php(231): Model->find('all', Array)
+#8 [internal function]: SystemDetailsController->home()
+#9 C:\wamp\www\Inventory\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(SystemDetailsController), Array)
+#10 C:\wamp\www\Inventory\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 C:\wamp\www\Inventory\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(SystemDetailsController), Object(CakeRequest))
+#12 C:\wamp\www\Inventory\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-07-05 08:15:48 Warning: Warning (2): PDO::__construct() [<a href='pdo.--construct'>pdo.--construct</a>]: [2002] No connection could be made because the target machine actively refused it.
+ (trying to connect via tcp://localhost:3306) in [C:\wamp\www\Inventory\lib\Cake\Model\Datasource\Database\Mysql.php, line 183]
+Trace:
+PDO::__construct() - [internal], line ??
+Mysql::connect() - CORE\Cake\Model\Datasource\Database\Mysql.php, line 183
+DboSource::__construct() - CORE\Cake\Model\Datasource\DboSource.php, line 260
+ConnectionManager::getDataSource() - CORE\Cake\Model\ConnectionManager.php, line 105
+Model::setDataSource() - CORE\Cake\Model\Model.php, line 3482
+Model::setSource() - CORE\Cake\Model\Model.php, line 1128
+Model::getDataSource() - CORE\Cake\Model\Model.php, line 3504
+Model::_readDataSource() - CORE\Cake\Model\Model.php, line 2905
+Model::find() - CORE\Cake\Model\Model.php, line 2877
+SystemDetailsController::home() - APP\Controller\SystemDetailsController.php, line 231
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 191
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 165
+[main] - APP\webroot\index.php, line 108
+
+2014-07-05 08:15:48 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+',
+  'enabled' => true,
+)
+Request URL: /Inventory/SystemDetails/home
+Stack Trace:
+#0 C:\wamp\www\Inventory\lib\Cake\Model\Datasource\DboSource.php(260): Mysql->connect()
+#1 C:\wamp\www\Inventory\lib\Cake\Model\ConnectionManager.php(105): DboSource->__construct(Array)
+#2 C:\wamp\www\Inventory\lib\Cake\Model\Model.php(3482): ConnectionManager::getDataSource('default')
+#3 C:\wamp\www\Inventory\lib\Cake\Model\Model.php(1128): Model->setDataSource('default')
+#4 C:\wamp\www\Inventory\lib\Cake\Model\Model.php(3504): Model->setSource('system_details')
+#5 C:\wamp\www\Inventory\lib\Cake\Model\Model.php(2905): Model->getDataSource()
+#6 C:\wamp\www\Inventory\lib\Cake\Model\Model.php(2877): Model->_readDataSource('all', Array)
+#7 C:\wamp\www\Inventory\app\Controller\SystemDetailsController.php(231): Model->find('all', Array)
+#8 [internal function]: SystemDetailsController->home()
+#9 C:\wamp\www\Inventory\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(SystemDetailsController), Array)
+#10 C:\wamp\www\Inventory\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 C:\wamp\www\Inventory\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(SystemDetailsController), Object(CakeRequest))
+#12 C:\wamp\www\Inventory\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-07-05 08:15:52 Error: [MissingActionException] Action SystemDetailsController::SystemDetails() could not be found.
+Exception Attributes: array (
+  'controller' => 'SystemDetailsController',
+  'action' => 'SystemDetails',
+)
+Request URL: /Inventory/SystemDetails/SystemDetails/filter/model:113
+Stack Trace:
+#0 C:\wamp\www\Inventory\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\Inventory\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(SystemDetailsController), Object(CakeRequest))
+#2 C:\wamp\www\Inventory\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-07-05 08:15:56 Error: [MissingActionException] Action SystemDetailsController::SystemDetails() could not be found.
+Exception Attributes: array (
+  'controller' => 'SystemDetailsController',
+  'action' => 'SystemDetails',
+)
+Request URL: /Inventory/SystemDetails/SystemDetails/filter/model:57
+Stack Trace:
+#0 C:\wamp\www\Inventory\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\Inventory\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(SystemDetailsController), Object(CakeRequest))
+#2 C:\wamp\www\Inventory\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-07-05 08:18:07 Error: [MissingActionException] Action SystemDetailsController::SystemDetails() could not be found.
+Exception Attributes: array (
+  'controller' => 'SystemDetailsController',
+  'action' => 'SystemDetails',
+)
+Request URL: /Inventory/SystemDetails/SystemDetails/filter/model:5
+Stack Trace:
+#0 C:\wamp\www\Inventory\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\Inventory\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(SystemDetailsController), Object(CakeRequest))
+#2 C:\wamp\www\Inventory\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-07-05 08:18:25 Error: [MissingActionException] Action SystemDetailsController::SystemDetails() could not be found.
+Exception Attributes: array (
+  'controller' => 'SystemDetailsController',
+  'action' => 'SystemDetails',
+)
+Request URL: /Inventory/SystemDetails/SystemDetails/filter/model:5
+Stack Trace:
+#0 C:\wamp\www\Inventory\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\Inventory\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(SystemDetailsController), Object(CakeRequest))
+#2 C:\wamp\www\Inventory\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-07-05 08:19:10 Error: [MissingActionException] Action SystemDetailsController::SystemDetails() could not be found.
+Exception Attributes: array (
+  'controller' => 'SystemDetailsController',
+  'action' => 'SystemDetails',
+)
+Request URL: /Inventory/SystemDetails/SystemDetails/filter/model:113
+Stack Trace:
+#0 C:\wamp\www\Inventory\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\Inventory\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(SystemDetailsController), Object(CakeRequest))
+#2 C:\wamp\www\Inventory\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-07-05 08:41:08 Error: [MissingActionException] Action SystemDetailsController::SystemDetails() could not be found.
+Exception Attributes: array (
+  'controller' => 'SystemDetailsController',
+  'action' => 'SystemDetails',
+)
+Request URL: /Inventory/SystemDetails/SystemDetails/filter/model:14
+Stack Trace:
+#0 C:\wamp\www\Inventory\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\Inventory\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(SystemDetailsController), Object(CakeRequest))
+#2 C:\wamp\www\Inventory\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-07-05 08:41:19 Error: [MissingActionException] Action SystemDetailsController::SystemDetails() could not be found.
+Exception Attributes: array (
+  'controller' => 'SystemDetailsController',
+  'action' => 'SystemDetails',
+)
+Request URL: /Inventory/SystemDetails/SystemDetails/filter/model:14/location:1
+Stack Trace:
+#0 C:\wamp\www\Inventory\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\Inventory\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(SystemDetailsController), Object(CakeRequest))
+#2 C:\wamp\www\Inventory\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-07-05 08:41:31 Error: [MissingActionException] Action SystemDetailsController::SystemDetails() could not be found.
+Exception Attributes: array (
+  'controller' => 'SystemDetailsController',
+  'action' => 'SystemDetails',
+)
+Request URL: /Inventory/SystemDetails/SystemDetails/filter/model:10
+Stack Trace:
+#0 C:\wamp\www\Inventory\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\Inventory\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(SystemDetailsController), Object(CakeRequest))
+#2 C:\wamp\www\Inventory\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-07-05 08:41:41 Error: [MissingActionException] Action SystemDetailsController::SystemDetails() could not be found.
+Exception Attributes: array (
+  'controller' => 'SystemDetailsController',
+  'action' => 'SystemDetails',
+)
+Request URL: /Inventory/SystemDetails/SystemDetails/filter/model:14
+Stack Trace:
+#0 C:\wamp\www\Inventory\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\Inventory\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(SystemDetailsController), Object(CakeRequest))
+#2 C:\wamp\www\Inventory\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-07-05 08:43:02 Error: [MissingActionException] Action SystemDetailsController::SystemDetails() could not be found.
+Exception Attributes: array (
+  'controller' => 'SystemDetailsController',
+  'action' => 'SystemDetails',
+)
+Request URL: /Inventory/SystemDetails/SystemDetails/filter/model:14
+Stack Trace:
+#0 C:\wamp\www\Inventory\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\Inventory\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(SystemDetailsController), Object(CakeRequest))
+#2 C:\wamp\www\Inventory\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-07-05 08:43:07 Error: [MissingActionException] Action SystemDetailsController::SystemDetails() could not be found.
+Exception Attributes: array (
+  'controller' => 'SystemDetailsController',
+  'action' => 'SystemDetails',
+)
+Request URL: /Inventory/SystemDetails/SystemDetails/filter/location:1
+Stack Trace:
+#0 C:\wamp\www\Inventory\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\Inventory\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(SystemDetailsController), Object(CakeRequest))
+#2 C:\wamp\www\Inventory\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-07-05 08:43:10 Error: [MissingActionException] Action SystemDetailsController::SystemDetails() could not be found.
+Exception Attributes: array (
+  'controller' => 'SystemDetailsController',
+  'action' => 'SystemDetails',
+)
+Request URL: /Inventory/SystemDetails/SystemDetails/filter/location:2
+Stack Trace:
+#0 C:\wamp\www\Inventory\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\Inventory\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(SystemDetailsController), Object(CakeRequest))
+#2 C:\wamp\www\Inventory\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-07-05 08:43:12 Error: [MissingActionException] Action SystemDetailsController::SystemDetails() could not be found.
+Exception Attributes: array (
+  'controller' => 'SystemDetailsController',
+  'action' => 'SystemDetails',
+)
+Request URL: /Inventory/SystemDetails/SystemDetails/filter/location:3
+Stack Trace:
+#0 C:\wamp\www\Inventory\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\Inventory\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(SystemDetailsController), Object(CakeRequest))
+#2 C:\wamp\www\Inventory\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-07-05 08:43:14 Error: [MissingActionException] Action SystemDetailsController::SystemDetails() could not be found.
+Exception Attributes: array (
+  'controller' => 'SystemDetailsController',
+  'action' => 'SystemDetails',
+)
+Request URL: /Inventory/SystemDetails/SystemDetails/filter/location:4
+Stack Trace:
+#0 C:\wamp\www\Inventory\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\Inventory\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(SystemDetailsController), Object(CakeRequest))
+#2 C:\wamp\www\Inventory\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-07-05 08:43:18 Error: [MissingActionException] Action SystemDetailsController::SystemDetails() could not be found.
+Exception Attributes: array (
+  'controller' => 'SystemDetailsController',
+  'action' => 'SystemDetails',
+)
+Request URL: /Inventory/SystemDetails/SystemDetails/filter/status:U
+Stack Trace:
+#0 C:\wamp\www\Inventory\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\Inventory\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(SystemDetailsController), Object(CakeRequest))
+#2 C:\wamp\www\Inventory\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-07-05 08:43:21 Error: [MissingActionException] Action SystemDetailsController::SystemDetails() could not be found.
+Exception Attributes: array (
+  'controller' => 'SystemDetailsController',
+  'action' => 'SystemDetails',
+)
+Request URL: /Inventory/SystemDetails/SystemDetails/filter/status:W
+Stack Trace:
+#0 C:\wamp\www\Inventory\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\Inventory\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(SystemDetailsController), Object(CakeRequest))
+#2 C:\wamp\www\Inventory\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-07-05 08:43:24 Error: [MissingActionException] Action SystemDetailsController::SystemDetails() could not be found.
+Exception Attributes: array (
+  'controller' => 'SystemDetailsController',
+  'action' => 'SystemDetails',
+)
+Request URL: /Inventory/SystemDetails/SystemDetails/filter/
+Stack Trace:
+#0 C:\wamp\www\Inventory\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\Inventory\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(SystemDetailsController), Object(CakeRequest))
+#2 C:\wamp\www\Inventory\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-07-05 09:05:16 Error: Fatal Error (4): syntax error, unexpected T_IF, expecting ')' in [C:\wamp\www\Inventory\app\View\SystemDetails\edit.ctp, line 29]
+2014-07-05 09:05:16 Error: [InternalErrorException] Internal Server Error
+Request URL: /Inventory/SystemDetails/edit/5
+Stack Trace:
+#0 C:\wamp\www\Inventory\lib\Cake\Error\ErrorHandler.php(204): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\Inv...', 29)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\Inv...', 29, Array)
+#2 C:\wamp\www\Inventory\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\Inv...', 29, Array)
+#3 C:\wamp\www\Inventory\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-05 09:09:23 Error: Fatal Error (4): syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ')' in [C:\wamp\www\Inventory\app\View\SystemDetails\edit.ctp, line 21]
+2014-07-05 09:09:23 Error: [InternalErrorException] Internal Server Error
+Request URL: /Inventory/SystemDetails/edit/5
+Stack Trace:
+#0 C:\wamp\www\Inventory\lib\Cake\Error\ErrorHandler.php(204): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\Inv...', 21)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\Inv...', 21, Array)
+#2 C:\wamp\www\Inventory\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\Inv...', 21, Array)
+#3 C:\wamp\www\Inventory\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-05 09:09:54 Error: Fatal Error (4): syntax error, unexpected T_DOUBLE_ARROW in [C:\wamp\www\Inventory\app\View\SystemDetails\edit.ctp, line 21]
+2014-07-05 09:09:54 Error: [InternalErrorException] Internal Server Error
+Request URL: /Inventory/SystemDetails/edit/5
+Stack Trace:
+#0 C:\wamp\www\Inventory\lib\Cake\Error\ErrorHandler.php(204): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\Inv...', 21)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\Inv...', 21, Array)
+#2 C:\wamp\www\Inventory\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\Inv...', 21, Array)
+#3 C:\wamp\www\Inventory\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-05 09:09:55 Error: Fatal Error (4): syntax error, unexpected T_DOUBLE_ARROW in [C:\wamp\www\Inventory\app\View\SystemDetails\edit.ctp, line 21]
+2014-07-05 09:09:55 Error: [InternalErrorException] Internal Server Error
+Request URL: /Inventory/SystemDetails/edit/5
+Stack Trace:
+#0 C:\wamp\www\Inventory\lib\Cake\Error\ErrorHandler.php(204): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\Inv...', 21)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\Inv...', 21, Array)
+#2 C:\wamp\www\Inventory\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\Inv...', 21, Array)
+#3 C:\wamp\www\Inventory\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-05 09:10:45 Error: Fatal Error (4): syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ')' in [C:\wamp\www\Inventory\app\View\SystemDetails\edit.ctp, line 21]
+2014-07-05 09:10:45 Error: [InternalErrorException] Internal Server Error
+Request URL: /Inventory/SystemDetails/edit/5
+Stack Trace:
+#0 C:\wamp\www\Inventory\lib\Cake\Error\ErrorHandler.php(204): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\Inv...', 21)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\Inv...', 21, Array)
+#2 C:\wamp\www\Inventory\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\Inv...', 21, Array)
+#3 C:\wamp\www\Inventory\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-05 09:10:47 Error: Fatal Error (4): syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ')' in [C:\wamp\www\Inventory\app\View\SystemDetails\edit.ctp, line 21]
+2014-07-05 09:10:47 Error: [InternalErrorException] Internal Server Error
+Request URL: /Inventory/SystemDetails/edit/5
+Stack Trace:
+#0 C:\wamp\www\Inventory\lib\Cake\Error\ErrorHandler.php(204): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\Inv...', 21)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\Inv...', 21, Array)
+#2 C:\wamp\www\Inventory\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\Inv...', 21, Array)
+#3 C:\wamp\www\Inventory\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-05 09:10:47 Error: Fatal Error (4): syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ')' in [C:\wamp\www\Inventory\app\View\SystemDetails\edit.ctp, line 21]
+2014-07-05 09:10:47 Error: [InternalErrorException] Internal Server Error
+Request URL: /Inventory/SystemDetails/edit/5
+Stack Trace:
+#0 C:\wamp\www\Inventory\lib\Cake\Error\ErrorHandler.php(204): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\Inv...', 21)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\Inv...', 21, Array)
+#2 C:\wamp\www\Inventory\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\Inv...', 21, Array)
+#3 C:\wamp\www\Inventory\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-05 09:10:47 Error: Fatal Error (4): syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ')' in [C:\wamp\www\Inventory\app\View\SystemDetails\edit.ctp, line 21]
+2014-07-05 09:10:47 Error: [InternalErrorException] Internal Server Error
+Request URL: /Inventory/SystemDetails/edit/5
+Stack Trace:
+#0 C:\wamp\www\Inventory\lib\Cake\Error\ErrorHandler.php(204): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\wamp\www\Inv...', 21)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\wamp\www\Inv...', 21, Array)
+#2 C:\wamp\www\Inventory\lib\Cake\Core\App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\wamp\www\Inv...', 21, Array)
+#3 C:\wamp\www\Inventory\lib\Cake\Core\App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-09 13:50:20 Error: [MissingControllerException] Controller class InventoryController could not be found.
+Exception Attributes: array (
+  'class' => 'InventoryController',
+  'plugin' => NULL,
+)
+Request URL: /Inventory/inventory/
+Stack Trace:
+#0 C:\wamp\www\Inventory\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}

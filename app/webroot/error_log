@@ -1,0 +1,1 @@
+[09-Jan-2015 11:20:55 America/Denver] PHP Fatal error:  Call to undefined function isAuthorized() in /home4/naturfg4/public_html/miftyisbored.com/wp-tutorials/cakephp-2_6-admin-routing/app/Controller/PostsController.php on line 94
